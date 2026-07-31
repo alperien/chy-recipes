@@ -1,0 +1,6 @@
+gobject-introspection
+lcms2
+meson
+ninja
+pkg-config
+vala

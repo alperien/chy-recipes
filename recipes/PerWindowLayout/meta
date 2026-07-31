@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/PerWindowLayout/template
+void-commit: e162987d4b
+pkgver: PerWindowLayout-0.6_1
+style: gnu-configure
+expect-needed: libX11.so.6
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libstdc++.so.6

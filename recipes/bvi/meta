@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/bvi/template
+void-commit: 9706044053d
+pkgver: bvi-1.4.1_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libncursesw.so.6

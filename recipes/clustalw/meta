@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/clustalw/template
+void-commit: f072dfce47
+pkgver: clustalw-2.1_2
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libm.so.6
+expect-needed: libstdc++.so.6

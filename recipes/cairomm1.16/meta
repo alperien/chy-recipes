@@ -1,0 +1,10 @@
+origin: translated
+template: srcpkgs/cairomm1.16/template
+void-commit: 36a6905667
+pkgver: cairomm1.16-1.16.1_1
+style: meson
+expect-needed: libc.so.6
+expect-needed: libcairo.so.2
+expect-needed: libgcc_s.so.1
+expect-needed: libsigc-3.0.so.0
+expect-needed: libstdc++.so.6

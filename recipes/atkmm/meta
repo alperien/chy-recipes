@@ -1,0 +1,13 @@
+origin: translated
+template: srcpkgs/atkmm/template
+void-commit: d973e22a5d
+pkgver: atkmm-2.28.3_1
+style: meson
+expect-needed: libatk-1.0.so.0
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libglib-2.0.so.0
+expect-needed: libglibmm-2.4.so.1
+expect-needed: libgobject-2.0.so.0
+expect-needed: libsigc-2.0.so.0
+expect-needed: libstdc++.so.6

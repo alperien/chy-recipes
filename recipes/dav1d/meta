@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/dav1d/template
+void-commit: 4fee499d1d8
+pkgver: dav1d-1.5.3_1
+style: meson
+expect-needed: libc.so.6
+expect-needed: libdav1d.so.7
+expect-needed: libm.so.6

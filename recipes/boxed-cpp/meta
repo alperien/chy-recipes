@@ -1,0 +1,5 @@
+origin: translated
+template: srcpkgs/boxed-cpp/template
+void-commit: ced364442b80
+pkgver: boxed-cpp-1.4.3_1
+style: cmake

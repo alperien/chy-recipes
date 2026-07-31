@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/dialog/template
+void-commit: 62edc5a5dd8a
+pkgver: dialog-1.3.20260107_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libm.so.6
+expect-needed: libncursesw.so.6

@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/cli11/template
+void-commit: b4e8d8a5fd1e
+pkgver: cli11-2.6.2_1
+style: cmake
+dropped: vlicense in post_install

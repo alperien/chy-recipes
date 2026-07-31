@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/cpmtools/template
+void-commit: dd504ef7c3
+pkgver: cpmtools-2.23_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libncursesw.so.6

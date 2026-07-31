@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/double-conversion/template
+void-commit: 17bf2a7507f
+pkgver: double-conversion-3.4.0_1
+style: cmake
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libstdc++.so.6

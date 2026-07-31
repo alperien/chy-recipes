@@ -1,0 +1,9 @@
+#!/bin/sh -e
+sed -e 's,SUBDIRS = . examples, SUBDIRS = .,' -i dbus/Makefile.in
+./configure \
+    --prefix="$CHY_PREFIX" \
+    --sysconfdir="$CHY_ROOT/etc" \
+    --disable-static \
+    --disable-bash-completion
+make
+make DESTDIR="$1" install

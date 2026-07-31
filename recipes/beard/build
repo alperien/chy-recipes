@@ -1,0 +1,3 @@
+#!/bin/sh -e
+install -Dm755 beard "$1$CHY_ROOT/usr/bin/beard"
+install -Dm644 beard.8 "$1$CHY_ROOT/usr/share/man/man8/beard.8"

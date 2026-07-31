@@ -1,0 +1,10 @@
+origin: translated
+template: srcpkgs/sxhkd/template
+void-commit: ffaf1891711
+pkgver: sxhkd-0.6.3_1
+style: gnu-makefile
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libxcb-keysyms.so.1
+expect-needed: libxcb-xkb.so.1
+expect-needed: libxcb.so.1

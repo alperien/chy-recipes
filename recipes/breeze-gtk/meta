@@ -1,0 +1,5 @@
+origin: translated
+template: srcpkgs/breeze-gtk/template
+void-commit: f2db35c81c9
+pkgver: breeze-gtk-6.6.3_1
+style: cmake

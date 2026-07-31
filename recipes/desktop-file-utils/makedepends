@@ -1,0 +1,4 @@
+glib
+meson
+ninja
+pkg-config

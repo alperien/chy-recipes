@@ -1,0 +1,2 @@
+#!/bin/sh -e
+install -Dm644 51-android.rules "$1$CHY_ROOT/usr/lib/udev/rules.d/51-android.rules"

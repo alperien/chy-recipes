@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/DirectX-Headers/template
+void-commit: 773764df5ee
+pkgver: DirectX-Headers-1.619.1_1
+style: meson
+dropped: vlicense in post_install

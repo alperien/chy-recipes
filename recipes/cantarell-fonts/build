@@ -1,0 +1,11 @@
+#!/bin/sh -e
+meson setup build \
+    --prefix="$CHY_PREFIX" \
+    --sysconfdir="$CHY_ROOT/etc" \
+    --libdir=lib \
+    --buildtype=release \
+    -Dfontsdir="$CHY_ROOT/usr/share/fonts/cantarell" \
+    -Duseprebuilt=true \
+    -Dbuildappstream=true
+ninja -C build
+DESTDIR="$1" ninja -C build install

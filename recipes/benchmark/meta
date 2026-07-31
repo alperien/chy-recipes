@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/benchmark/template
+void-commit: ca9185b0e24a
+pkgver: benchmark-1.9.5_1
+style: cmake
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libm.so.6
+expect-needed: libstdc++.so.6

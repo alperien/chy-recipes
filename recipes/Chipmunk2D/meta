@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/Chipmunk2D/template
+void-commit: 0bf0317af4
+pkgver: Chipmunk2D-7.0.3_1
+style: cmake
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libm.so.6

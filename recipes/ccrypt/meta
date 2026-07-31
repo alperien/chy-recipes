@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/ccrypt/template
+void-commit: 50a3f0371d1
+pkgver: ccrypt-1.11_2
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libcrypt.so.2

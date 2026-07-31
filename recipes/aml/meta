@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/aml/template
+void-commit: 97020e9d72f
+pkgver: aml-0.3.0_1
+style: meson
+dropped: vlicense in post_install
+expect-needed: libc.so.6

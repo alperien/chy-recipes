@@ -1,0 +1,7 @@
+#!/bin/sh -e
+export CXXFLAGS="${CXXFLAGS:+$CXXFLAGS }-DNDEBUG -fPIC"
+make \
+    dynamic \
+    static \
+    libcryptopp.pc
+make PREFIX="$CHY_PREFIX" DESTDIR="$1" install-lib

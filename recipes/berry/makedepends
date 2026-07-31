@@ -1,0 +1,6 @@
+freetype
+libX11
+libXft
+libXinerama
+pkg-config
+which

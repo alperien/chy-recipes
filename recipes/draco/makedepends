@@ -1,0 +1,4 @@
+cmake
+ninja
+pkg-config
+python3

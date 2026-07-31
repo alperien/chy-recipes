@@ -1,0 +1,10 @@
+origin: translated
+template: srcpkgs/ddpt/template
+void-commit: 819d78a773
+pkgver: ddpt-0.97_1
+style: gnu-configure
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libsgutils2-1.45.so.2
+expect-needed: libstdc++.so.6

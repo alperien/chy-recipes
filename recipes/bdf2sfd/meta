@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/bdf2sfd/template
+void-commit: 3ef9439ea69
+pkgver: bdf2sfd-1.2.0_1
+style: cmake
+dropped: vlicense in post_install
+expect-needed: libc.so.6

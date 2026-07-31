@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/edac-utils/template
+void-commit: 88c673bab4
+pkgver: edac-utils-0.18_2
+style: gnu-configure
+dropped: vsv in post_install
+expect-needed: libc.so.6
+expect-needed: libedac.so.1

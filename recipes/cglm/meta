@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/cglm/template
+void-commit: 08ab4e00d26
+pkgver: cglm-0.9.6_1
+style: meson
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libm.so.6

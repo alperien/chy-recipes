@@ -1,0 +1,12 @@
+origin: translated
+template: srcpkgs/bird/template
+void-commit: 2df98084911
+pkgver: bird-2.17.1_1
+style: gnu-configure
+dropped: conf_files
+dropped: system_accounts
+dropped: vsv in post_install
+expect-needed: libc.so.6
+expect-needed: libncursesw.so.6
+expect-needed: libreadline.so.8
+expect-needed: libssh.so.4

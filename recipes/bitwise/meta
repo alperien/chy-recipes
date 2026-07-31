@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/bitwise/template
+void-commit: 0bb1eedd2c
+pkgver: bitwise-0.50_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libformw.so.6
+expect-needed: libncursesw.so.6
+expect-needed: libreadline.so.8

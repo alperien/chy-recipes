@@ -1,0 +1,15 @@
+origin: translated
+template: srcpkgs/bspwm/template
+void-commit: 0df71b13b637
+pkgver: bspwm-0.9.12_1
+style: gnu-makefile
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libxcb-ewmh.so.2
+expect-needed: libxcb-icccm.so.4
+expect-needed: libxcb-keysyms.so.1
+expect-needed: libxcb-randr.so.0
+expect-needed: libxcb-shape.so.0
+expect-needed: libxcb-util.so.1
+expect-needed: libxcb-xinerama.so.0
+expect-needed: libxcb.so.1

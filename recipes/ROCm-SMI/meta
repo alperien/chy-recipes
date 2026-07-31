@@ -1,0 +1,10 @@
+origin: translated
+template: srcpkgs/ROCm-SMI/template
+void-commit: 2e79b0668b2
+pkgver: ROCm-SMI-7.0.1_1
+style: cmake
+expect-needed: ld-linux-x86-64.so.2
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libm.so.6
+expect-needed: libstdc++.so.6

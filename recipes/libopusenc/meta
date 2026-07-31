@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/libopusenc/template
+void-commit: fe0a5d5d14
+pkgver: libopusenc-0.2.1_1
+style: gnu-configure
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libm.so.6
+expect-needed: libopus.so.0

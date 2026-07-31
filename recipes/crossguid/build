@@ -1,0 +1,7 @@
+#!/bin/sh -e
+cmake -G Ninja -B build \
+    -DCMAKE_INSTALL_PREFIX="$CHY_PREFIX" \
+    -DCMAKE_BUILD_TYPE=Release
+ninja -C build
+install -Dm644 build/libxg.a "$1$CHY_ROOT/usr/lib/libxg.a"
+install -Dm644 Guid.hpp "$1$CHY_ROOT/usr/include/Guid.hpp"

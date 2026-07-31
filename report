@@ -1,73 +1,223 @@
+translated: 3proxy
+translated: 64tass
 translated: 66-tools
 translated: 6tunnel
 translated: 9mount
+translated: ADMS-qucs
+translated: Brainfunk
+translated: Chipmunk2D
+translated: Clp
+translated: DirectX-Headers
+translated: ETL
+translated: Fonts-TLWG
+translated: Gauche
 translated: Haru
+translated: MangoHud
+translated: Mustache
+translated: ORBit2
+translated: OpenCL-Headers
+refused: OpenTimelineIO: patches/0099-cmake.patch: header sides disagree on the strip level
+translated: PerWindowLayout
+translated: QHotkey
+translated: QXlsx
+translated: ROCm-SMI
+deferred: SPIRV-Headers SPIRV-Headers-1.4.350.1_1 age=3
+deferred: SPIRV-Tools SPIRV-Tools-2026.2_1 age=3
+translated: STC
+translated: SuiteSparse
+deferred: Vulkan-Headers Vulkan-Headers-1.4.350.1_1 age=3
+deferred: Vulkan-Tools Vulkan-Tools-1.4.350.1_1 age=3
+deferred: Vulkan-Utility-Libraries Vulkan-Utility-Libraries-1.4.350.1_1 age=3
+deferred: Vulkan-ValidationLayers Vulkan-ValidationLayers-1.4.350.1_1 age=3
 translated: a4
+translated: abcmidi
 translated: abduco
+translated: abseil-cpp
 translated: acct
 translated: acpi
-deferred: acpica-utils acpica-utils-20260408_1 age=4
+deferred: acpica-utils acpica-utils-20260408_1 age=5
 translated: acpid
 translated: acr
+translated: ada
+translated: adjtimex
+translated: advancecomp
+translated: adwaita-fonts
 translated: aggregate
 translated: aha
+translated: airspy
+translated: airspyhf
+translated: alfred-json
+translated: aml
+translated: android-udev-rules
+translated: ansifilter
+translated: apr
 translated: argon2
+translated: argtable
 translated: asio
+translated: aspell-cs
+translated: aspell-de
+translated: aspell-en
+translated: aspell-it
+translated: aspell-nl
+translated: aspell-pl
+translated: aspell-pt_BR
+translated: aspell-ru
+translated: aspell-sk
 translated: at-spi2-core
 translated: atinout
-deferred: attr attr-2.6.0_1 age=3
+translated: atkmm
+deferred: atomicparsley atomicparsley-20240608.083822_1 age=5
+deferred: attr attr-2.6.0_1 age=5
+translated: augeas
 refused: ax25-tools: patches/musl.patch: no ---/+++ header pair to derive a strip level from
 translated: b43-fwcutter
+translated: babl
+translated: basu
 translated: bbe
+translated: bbkeys
+translated: bcache-tools
+translated: bcal
+refused: bcg729: patches/cmake.patch: header sides disagree on the strip level
+translated: bdf2sfd
 translated: bdftopcf
+translated: beard
+translated: benchmark
+deferred: bento4 bento4-1.6.0+641_1 age=2
+translated: berry
+translated: biblesync
+translated: bird
+translated: bitchx
+translated: bitwise
+translated: blackboxwm
 translated: bootchart
 translated: bootterm
+translated: box2d
+translated: boxed-cpp
+translated: breeze-gtk
+translated: breeze-icons
+translated: brial
+translated: brillo
 translated: bspwm
+translated: btop
+translated: bullet
+translated: bvi
 translated: byacc
 exception: bzip2
 translated: bzip3
 translated: c-ares
+translated: c-blosc
+translated: cJSON
 translated: cairo
+translated: cairomm
+translated: cairomm1.16
 translated: can-utils
+translated: cantarell-fonts
+translated: capnproto
+translated: catch2
+translated: catimg
+translated: cbonsai
 translated: cc65
+translated: ccd2iso
 translated: cciss_vol_status
+translated: ccrypt
 translated: cddlib
 translated: celt
+translated: cereal
 translated: cflow
 translated: cfm
+translated: cgif
+translated: cglm
+deferred: chawan chawan-0.4.4_1 age=0
+translated: chayang
 translated: check
 translated: chelf
+translated: chmlib
+translated: chrono-date
 translated: chrpath
+deferred: cinnamon-menus cinnamon-menus-6.6.0_1 age=5
 translated: ck
 translated: clac
 translated: cldr-emoji-annotation
+translated: cli11
+translated: clipper
 translated: cliquer
+translated: cln
+translated: clog
 translated: cloog
+translated: clustalo
+translated: clustalw
+translated: cmake-extras
+translated: cmatrix
 translated: cmdpack
-deferred: cmuclmtk cmuclmtk-0.7_3 age=1055
+translated: cmocka
+deferred: cmuclmtk cmuclmtk-0.7_3 age=1056
+translated: codec2
+translated: commoncpp2
 translated: compsize
 translated: confuse
+translated: containers-common
+translated: contractor
 translated: convmv
+translated: corrosion
+translated: courier-unicode
+translated: cpat
 translated: cpio
+translated: cpmtools
+translated: cpp-utilities
+translated: cppcms
+translated: cppcodec
+translated: cppdb
+translated: cpputest
+translated: cppzmq
 translated: cproto
+translated: cpu_features
 translated: cpufetch
+translated: cpuid
 translated: cpuinfo
+translated: crex
+translated: cronutils
+translated: crossguid
 translated: crud
+translated: crypto++
 translated: csvcut
+translated: ctpl
+translated: culmus
+translated: cxxopts
 translated: dadadodo
+translated: dav1d
 translated: dbus
+translated: dbus-glib
+translated: dbus-test-runner
+translated: dconf
+translated: ddate
+translated: ddpt
+translated: debugedit
+translated: dejavu-fonts-ttf
+translated: desktop-file-utils
+translated: dfc
 translated: dfu-util
 translated: dhcpcd
 translated: dhcping
+translated: di
+translated: dialog
 translated: diction
 translated: diffstat
 translated: diffutils
 translated: ding-libs
+translated: discount
+translated: diskscan
+translated: dmg2img
 translated: dnstracer
+translated: docopt.cpp
+translated: doctest
 translated: dosfstools
-deferred: dsh dsh-0.25.10_6 age=1055
+translated: double-conversion
+refused: dpp: patches/fix_ctime.diff: no ---/+++ header pair to derive a strip level from
+translated: draco
+deferred: dsh dsh-0.25.10_6 age=1056
 translated: dsvpn
 translated: dtach
+translated: dte
 translated: duff
 translated: dumb-init
 translated: dvdbackup
@@ -79,7 +229,7 @@ translated: endlessh
 translated: enscript
 translated: epub2txt
 translated: ethtool
-deferred: evilwm evilwm-1.5_1 age=0
+deferred: evilwm evilwm-1.5_1 age=1
 translated: execline-man-pages
 translated: exfat-utils
 translated: expat
@@ -104,7 +254,7 @@ translated: gdbm
 translated: gdk-pixbuf
 translated: genext2fs
 translated: gforth
-deferred: giflib giflib-6.1.3_1 age=0
+deferred: giflib giflib-6.1.3_1 age=1
 translated: gifsicle
 translated: glib
 translated: glpk
@@ -120,14 +270,14 @@ translated: gsl
 translated: gtk+3
 translated: gzip
 translated: harfbuzz
-deferred: haveged haveged-1.9.26_1 age=2
+deferred: haveged haveged-1.9.26_1 age=3
 translated: havoc
 translated: hdapsd
 translated: hello
 translated: hexd
 translated: hidapi
 translated: hiredis
-deferred: html-xml-utils html-xml-utils-8.8_1 age=3
+deferred: html-xml-utils html-xml-utils-8.8_1 age=4
 translated: http-parser
 translated: hyx
 translated: iat
@@ -148,7 +298,7 @@ translated: jdupes
 translated: jhead
 translated: jitterentropy
 translated: jitterentropy-rngd
-deferred: joe joe-4.8_1 age=1
+deferred: joe joe-4.8_1 age=2
 translated: judy
 translated: kbdlight
 translated: keychain
@@ -159,7 +309,7 @@ translated: ksuperkey
 translated: kwebapp
 translated: lbzip2
 translated: lemonbar
-deferred: lhasa lhasa-0.6.0_1 age=1
+deferred: lhasa lhasa-0.6.0_1 age=2
 translated: libHX
 translated: libX11
 translated: libXScrnSaver
@@ -221,8 +371,8 @@ translated: libgpg-error
 translated: libgta
 translated: libguess
 translated: libhangul
-deferred: libidn libidn-1.44_1 age=1
-deferred: libidn2 libidn2-2.3.8_1 age=1
+deferred: libidn libidn-1.44_1 age=2
+deferred: libidn2 libidn2-2.3.8_1 age=2
 translated: libiec61883
 translated: libieee1284
 translated: libiptcdata
@@ -242,7 +392,7 @@ translated: libmspack
 translated: libnatpmp
 translated: libndp
 translated: libnet
-deferred: libnetfilter_acct libnetfilter_acct-1.0.3_1 age=1055
+deferred: libnetfilter_acct libnetfilter_acct-1.0.3_1 age=1056
 translated: libnetfilter_conntrack
 translated: libnetfilter_cthelper
 translated: libnetfilter_cttimeout
@@ -280,7 +430,7 @@ translated: liburing
 translated: libusb
 refused: libusb-compat: hook pre_configure is class C: command 'autoreconf' is outside the idiom set (pre_configure)
 translated: libutempter
-deferred: libuv libuv-1.52.1_1 age=3
+deferred: libuv libuv-1.52.1_1 age=4
 translated: libva-vdpau-driver
 translated: libvdpau
 translated: libvorbis
@@ -340,7 +490,7 @@ translated: mpfr
 translated: mtdev
 translated: multitime
 translated: musca
-deferred: musl-bootstrap musl-bootstrap-1.2.6_1 age=1
+deferred: musl-bootstrap musl-bootstrap-1.2.6_1 age=2
 translated: nano-exporter
 translated: nawk
 translated: ncftp
@@ -421,7 +571,7 @@ translated: s6-man-pages
 translated: s6-networking-man-pages
 translated: s6-portable-utils-man-pages
 translated: samurai
-deferred: sbc sbc-2.2_1 age=2
+deferred: sbc sbc-2.2_1 age=3
 translated: scheme48
 translated: scooper
 translated: sct
@@ -560,7 +710,7 @@ translated: xwd
 translated: xwininfo
 translated: xwud
 translated: xz
-deferred: yascreen yascreen-2.13_1 age=3
+deferred: yascreen yascreen-2.13_1 age=4
 translated: yasm
 translated: yeahconsole
 refused: zeroc-mcpp: conflicts: dependency 'mcpp-devel' not in the snapshot slice

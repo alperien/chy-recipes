@@ -1,0 +1,5 @@
+origin: translated
+template: srcpkgs/OpenCL-Headers/template
+void-commit: 79ec2a69b515
+pkgver: OpenCL-Headers-2026.05.29_1
+style: cmake

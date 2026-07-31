@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/desktop-file-utils/template
+void-commit: da351f95562
+pkgver: desktop-file-utils-0.28_1
+style: meson
+expect-needed: libc.so.6
+expect-needed: libgio-2.0.so.0
+expect-needed: libglib-2.0.so.0

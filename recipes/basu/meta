@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/basu/template
+void-commit: 08910142964a
+pkgver: basu-0.2.1_1
+style: meson
+expect-needed: ld-linux-x86-64.so.2
+expect-needed: libc.so.6

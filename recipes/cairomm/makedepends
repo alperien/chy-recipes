@@ -1,0 +1,8 @@
+cairo
+fontconfig
+libXrender
+libpng
+libsigc++
+meson
+ninja
+pkg-config

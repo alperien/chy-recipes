@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/babl/template
+void-commit: 9c10321c910d
+pkgver: babl-0.1.126_1
+style: meson
+expect-needed: ld-linux-x86-64.so.2
+expect-needed: libc.so.6
+expect-needed: liblcms2.so.2
+expect-needed: libm.so.6

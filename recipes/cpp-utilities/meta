@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/cpp-utilities/template
+void-commit: dc4246ec159e
+pkgver: cpp-utilities-5.34.1_1
+style: cmake
+expect-needed: ld-linux-x86-64.so.2
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libstdc++.so.6

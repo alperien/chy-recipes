@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/cxxopts/template
+void-commit: 72e96b98243
+pkgver: cxxopts-3.3.1_1
+style: cmake
+dropped: vlicense in post_install

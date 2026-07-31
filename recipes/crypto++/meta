@@ -1,0 +1,10 @@
+origin: translated
+template: srcpkgs/crypto++/template
+void-commit: 412ac3f92952
+pkgver: crypto++-8.9.0_1
+style: gnu-makefile
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libm.so.6
+expect-needed: libstdc++.so.6

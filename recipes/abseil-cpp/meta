@@ -1,0 +1,10 @@
+origin: translated
+template: srcpkgs/abseil-cpp/template
+void-commit: 53b0b8402ec0
+pkgver: abseil-cpp-20250512.1_1
+style: cmake
+expect-needed: ld-linux-x86-64.so.2
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libm.so.6
+expect-needed: libstdc++.so.6

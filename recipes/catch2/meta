@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/catch2/template
+void-commit: f3082b41fd2
+pkgver: catch2-3.6.0_1
+style: cmake
+dropped: vlicense in post_install

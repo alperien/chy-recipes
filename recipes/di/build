@@ -1,0 +1,8 @@
+#!/bin/sh -e
+cmake -G Ninja -B build \
+    -DCMAKE_INSTALL_PREFIX="$CHY_PREFIX" \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DBUILD_SHARED_LIBS=OFF
+ninja -C build
+DESTDIR="$1" ninja -C build install
+rm -rf "$1$CHY_ROOT/usr/include" "$1$CHY_ROOT/usr/lib" "$1$CHY_ROOT/usr/share/man/man3"

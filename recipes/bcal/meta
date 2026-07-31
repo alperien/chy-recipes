@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/bcal/template
+void-commit: 7d890497d6f
+pkgver: bcal-2.5_1
+style: gnu-makefile
+expect-needed: libc.so.6
+expect-needed: libm.so.6
+expect-needed: libreadline.so.8

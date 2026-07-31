@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/ansifilter/template
+void-commit: c0a832cafbd9
+pkgver: ansifilter-2.22_1
+style: gnu-makefile
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libstdc++.so.6

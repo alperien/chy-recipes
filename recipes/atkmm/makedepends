@@ -1,0 +1,6 @@
+at-spi2-core
+glibmm
+libsigc++
+meson
+ninja
+pkg-config

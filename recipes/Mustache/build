@@ -1,0 +1,2 @@
+#!/bin/sh -e
+install -Dm644 mustache.hpp "$1$CHY_ROOT/usr/include/mustache.hpp"

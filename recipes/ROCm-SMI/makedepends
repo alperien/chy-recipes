@@ -1,0 +1,4 @@
+cmake
+libdrm
+ninja
+pkg-config

@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/crossguid/template
+void-commit: f072dfce47
+pkgver: crossguid-0.2.2_2
+style: cmake
+dropped: vlicense in do_install

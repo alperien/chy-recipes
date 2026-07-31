@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/courier-unicode/template
+void-commit: c103ab73ca6
+pkgver: courier-unicode-2.6.0_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libm.so.6
+expect-needed: libstdc++.so.6

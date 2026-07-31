@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/xtitle/template
+void-commit: d2b2368b51
+pkgver: xtitle-0.4.4_1
+style: gnu-makefile
+expect-needed: libc.so.6
+expect-needed: libxcb-ewmh.so.2
+expect-needed: libxcb-icccm.so.4
+expect-needed: libxcb.so.1

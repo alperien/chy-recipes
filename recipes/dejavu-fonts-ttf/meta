@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/dejavu-fonts-ttf/template
+void-commit: 3da56a7d41e
+pkgver: dejavu-fonts-ttf-2.37_3
+style: NONE
+dropped: vlicense in do_install

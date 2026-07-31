@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/Mustache/template
+void-commit: d29642fc07
+pkgver: Mustache-4.1_1
+style: NONE
+dropped: check phase do_check

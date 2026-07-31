@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/cpu_features/template
+void-commit: 869265c39cd0
+pkgver: cpu_features-0.10.1_1
+style: cmake
+expect-needed: libc.so.6

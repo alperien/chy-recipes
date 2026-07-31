@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/STC/template
+void-commit: 1e52b0229074
+pkgver: STC-5.0_1
+style: meson
+dropped: vlicense in post_install

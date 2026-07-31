@@ -1,0 +1,5 @@
+origin: translated
+template: srcpkgs/culmus/template
+void-commit: 0e79e62494f
+pkgver: culmus-0.140_1
+style: NONE

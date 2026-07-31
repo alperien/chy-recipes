@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/cJSON/template
+void-commit: dbf29daebbf
+pkgver: cJSON-1.7.19_1
+style: cmake
+dropped: vlicense in post_install
+expect-needed: libc.so.6

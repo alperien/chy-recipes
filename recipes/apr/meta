@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/apr/template
+void-commit: 3e59286ab4ce
+pkgver: apr-1.7.6_1
+style: gnu-configure
+dropped: check phase do_check
+dropped: cross-build block in post_install
+expect-needed: libc.so.6
+expect-needed: libuuid.so.1

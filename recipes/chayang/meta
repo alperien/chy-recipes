@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/chayang/template
+void-commit: efc2cb9889
+pkgver: chayang-0.1.0_1
+style: meson
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libwayland-client.so.0

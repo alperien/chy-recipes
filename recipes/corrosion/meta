@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/corrosion/template
+void-commit: 09857a89e38
+pkgver: corrosion-0.5.2_1
+style: cmake
+dropped: check phase do_check
+dropped: vlicense in post_install

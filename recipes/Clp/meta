@@ -1,0 +1,10 @@
+origin: translated
+template: srcpkgs/Clp/template
+void-commit: d58dbfe899c
+pkgver: Clp-1.17.3_2
+style: gnu-configure
+expect-needed: libClp.so.1
+expect-needed: libClpSolver.so.1
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libstdc++.so.6

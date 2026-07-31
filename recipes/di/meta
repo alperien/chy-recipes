@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/di/template
+void-commit: dd691cc0a64
+pkgver: di-6.2.2.2_1
+style: cmake
+dropped: vlicense in post_install
+expect-needed: libc.so.6

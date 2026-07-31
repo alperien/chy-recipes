@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/cbonsai/template
+void-commit: 11592739e7c3
+pkgver: cbonsai-1.4.2_1
+style: gnu-makefile
+expect-needed: libc.so.6
+expect-needed: libncursesw.so.6
+expect-needed: libpanelw.so.6

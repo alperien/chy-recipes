@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/debugedit/template
+void-commit: 2d614d27b71
+pkgver: debugedit-5.0_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libdw.so.1
+expect-needed: libelf.so.1

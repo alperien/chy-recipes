@@ -1,0 +1,5 @@
+origin: translated
+template: srcpkgs/android-udev-rules/template
+void-commit: 4b1bc5e819b
+pkgver: android-udev-rules-20260423_1
+style: NONE

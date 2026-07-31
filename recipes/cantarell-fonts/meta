@@ -1,0 +1,5 @@
+origin: translated
+template: srcpkgs/cantarell-fonts/template
+void-commit: d63ddf47476f
+pkgver: cantarell-fonts-0.303.1_2
+style: meson

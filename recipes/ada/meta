@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/ada/template
+void-commit: 9d41b7331348
+pkgver: ada-3.4.4_1
+style: cmake
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libstdc++.so.6

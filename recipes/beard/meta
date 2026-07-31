@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/beard/template
+void-commit: b3fa065af47
+pkgver: beard-0.4_1
+style: NONE
+dropped: vlicense in do_install
+dropped: vsv in do_install

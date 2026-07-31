@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/draco/template
+void-commit: 148ff091051
+pkgver: draco-1.5.6_1
+style: cmake
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libm.so.6
+expect-needed: libstdc++.so.6

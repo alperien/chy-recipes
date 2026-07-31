@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/cgif/template
+void-commit: 112594bff64
+pkgver: cgif-0.5.3_1
+style: meson
+dropped: vlicense in post_install
+expect-needed: libc.so.6

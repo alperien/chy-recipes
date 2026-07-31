@@ -1,0 +1,5 @@
+origin: translated
+template: srcpkgs/adwaita-fonts/template
+void-commit: 109c355698c
+pkgver: adwaita-fonts-48.2_1
+style: meson

@@ -1,0 +1,5 @@
+origin: translated
+template: srcpkgs/cmake-extras/template
+void-commit: 7b5b0fdc903
+pkgver: cmake-extras-1.9_1
+style: cmake

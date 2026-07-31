@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/cmocka/template
+void-commit: 834d7d5f7b3
+pkgver: cmocka-2.0.2_1
+style: cmake
+expect-needed: ld-linux-x86-64.so.2
+expect-needed: libc.so.6

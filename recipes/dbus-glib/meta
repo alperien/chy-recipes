@@ -1,0 +1,10 @@
+origin: translated
+template: srcpkgs/dbus-glib/template
+void-commit: 4c470f9225
+pkgver: dbus-glib-0.112_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libdbus-1.so.3
+expect-needed: libgio-2.0.so.0
+expect-needed: libglib-2.0.so.0
+expect-needed: libgobject-2.0.so.0

@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/augeas/template
+void-commit: 3fffa554ae
+pkgver: augeas-1.12.0_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libreadline.so.8
+expect-needed: libxml2.so.2

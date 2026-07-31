@@ -1,0 +1,10 @@
+origin: translated
+template: srcpkgs/cln/template
+void-commit: 31a5575874
+pkgver: cln-1.3.6_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libgmp.so.10
+expect-needed: libm.so.6
+expect-needed: libstdc++.so.6

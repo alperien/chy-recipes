@@ -1,0 +1,4 @@
+meson
+nasm
+ninja
+pkg-config

@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/dbus-test-runner/template
+void-commit: d06e7a5d18
+pkgver: dbus-test-runner-19.04.0_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libgio-2.0.so.0
+expect-needed: libglib-2.0.so.0
+expect-needed: libgobject-2.0.so.0
