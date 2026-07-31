@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/libdshconfig/template
+void-commit: cbbaf53
+pkgver: libdshconfig-0.20.13_3
+style: gnu-configure
+expect-needed: libc.so.6

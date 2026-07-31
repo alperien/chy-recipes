@@ -1,0 +1,8 @@
+#!/bin/sh -e
+./configure \
+    --prefix="$CHY_PREFIX" \
+    --sysconfdir="$CHY_ROOT/etc" \
+    --disable-static \
+    --disable-journal
+make
+make DESTDIR="$1" install

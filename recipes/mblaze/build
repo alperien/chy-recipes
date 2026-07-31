@@ -1,0 +1,16 @@
+#!/bin/sh -e
+make
+make PREFIX="$CHY_PREFIX" DESTDIR="$1" install
+install -Dm755 contrib/mcount "$1$CHY_ROOT/usr/bin/mcount"
+install -Dm755 contrib/mencrypt "$1$CHY_ROOT/usr/bin/mencrypt"
+install -Dm755 contrib/menter "$1$CHY_ROOT/usr/bin/menter"
+install -Dm755 contrib/mgpg "$1$CHY_ROOT/usr/bin/mgpg"
+install -Dm755 contrib/mmailto "$1$CHY_ROOT/usr/bin/mmailto"
+install -Dm755 contrib/mopenall "$1$CHY_ROOT/usr/bin/mopenall"
+install -Dm755 contrib/mp7m "$1$CHY_ROOT/usr/bin/mp7m"
+install -Dm755 contrib/mraw "$1$CHY_ROOT/usr/bin/mraw"
+install -Dm755 contrib/mrecode "$1$CHY_ROOT/usr/bin/mrecode"
+install -Dm755 contrib/msearch "$1$CHY_ROOT/usr/bin/msearch"
+install -Dm755 contrib/msign "$1$CHY_ROOT/usr/bin/msign"
+install -Dm755 contrib/mverify "$1$CHY_ROOT/usr/bin/mverify"
+install -Dm755 contrib/mvi "$1$CHY_ROOT/usr/bin/mvi"

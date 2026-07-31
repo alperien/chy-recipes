@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/ksuperkey/template
+void-commit: aa4778bb27
+pkgver: ksuperkey-0.4_1
+style: gnu-makefile
+expect-needed: libX11.so.6
+expect-needed: libXtst.so.6
+expect-needed: libc.so.6
+expect-needed: libpthread.so.0

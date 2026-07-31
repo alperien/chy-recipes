@@ -1,0 +1,5 @@
+#!/bin/sh -e
+export CFLAGS="${CFLAGS:+$CFLAGS }-D_GNU_SOURCE"
+make
+install -Dm755 minissdpd "$1$CHY_ROOT/usr/bin/minissdpd"
+install -Dm644 minissdpd.1 "$1$CHY_ROOT/usr/share/man/man1/minissdpd.1"

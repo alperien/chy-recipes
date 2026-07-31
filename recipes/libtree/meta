@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/libtree/template
+void-commit: 646906290c
+pkgver: libtree-3.1.1_1
+style: gnu-makefile
+dropped: check phase pre_check
+dropped: vlicense in post_install
+expect-needed: libc.so.6

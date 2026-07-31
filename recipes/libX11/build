@@ -1,0 +1,11 @@
+#!/bin/sh -e
+./configure \
+    --prefix="$CHY_PREFIX" \
+    --sysconfdir="$CHY_ROOT/etc" \
+    --enable-ipv6 \
+    --enable-xlocaledir \
+    --without-xmlto \
+    --enable-static \
+    --enable-malloc0returnsnull
+make
+make DESTDIR="$1" install

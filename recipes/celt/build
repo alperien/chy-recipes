@@ -1,0 +1,10 @@
+#!/bin/sh -e
+./configure \
+    --prefix="$CHY_PREFIX" \
+    --sysconfdir="$CHY_ROOT/etc" \
+    --with-ogg= \
+    --enable-float-approx \
+    --enable-custom-modes \
+    --disable-oggtest
+make
+make DESTDIR="$1" install

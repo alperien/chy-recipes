@@ -1,0 +1,8 @@
+#!/bin/sh -e
+./configure \
+    --prefix="$CHY_PREFIX" \
+    --sysconfdir="$CHY_ROOT/etc" \
+    --enable-install-gpg-error-config
+make
+make DESTDIR="$1" install
+rm -r "$1$CHY_ROOT/usr/share/common-lisp"

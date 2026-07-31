@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/libfreeaptx/template
+void-commit: a756c78fee0
+pkgver: libfreeaptx-0.2.2_1
+style: gnu-makefile
+expect-needed: libc.so.6

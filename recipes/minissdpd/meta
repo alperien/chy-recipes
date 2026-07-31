@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/minissdpd/template
+void-commit: b7b367c5f5
+pkgver: minissdpd-1.6.0_1
+style: gnu-makefile
+dropped: vlicense in do_install
+dropped: vsv in do_install
+expect-needed: libc.so.6
+expect-needed: libnfnetlink.so.0

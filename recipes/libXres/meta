@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/libXres/template
+void-commit: a24e9933f7
+pkgver: libXres-1.2.2_1
+style: gnu-configure
+dropped: vlicense in post_install
+expect-needed: libX11.so.6
+expect-needed: libXext.so.6
+expect-needed: libc.so.6

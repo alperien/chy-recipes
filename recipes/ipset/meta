@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/ipset/template
+void-commit: 30de6a1aa17
+pkgver: ipset-7.24_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libmnl.so.0

@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/mlocate/template
+void-commit: bb6b739352
+pkgver: mlocate-0.26_7
+style: gnu-configure
+dropped: system_accounts
+expect-needed: libc.so.6

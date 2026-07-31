@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/massdns/template
+void-commit: fc705ea993
+pkgver: massdns-1.0.0_2
+style: gnu-makefile
+expect-needed: libc.so.6

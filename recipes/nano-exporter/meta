@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/nano-exporter/template
+void-commit: 7eaba204f07
+pkgver: nano-exporter-2.0.0_1
+style: gnu-makefile
+dropped: vsv in do_install
+expect-needed: libc.so.6

@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/libev/template
+void-commit: bff9dc50ca
+pkgver: libev-4.33_1
+style: gnu-configure
+dropped: vlicense in post_install
+expect-needed: libc.so.6

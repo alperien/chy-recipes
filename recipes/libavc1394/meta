@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/libavc1394/template
+void-commit: 3771c3d8c8
+pkgver: libavc1394-0.5.4_2
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libm.so.6
+expect-needed: libraw1394.so.11

@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/libbsd/template
+void-commit: ae11715da00
+pkgver: libbsd-0.12.2_1
+style: gnu-configure
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libmd.so.0

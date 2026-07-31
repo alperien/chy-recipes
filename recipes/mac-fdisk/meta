@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/mac-fdisk/template
+void-commit: 6d65f04424c
+pkgver: mac-fdisk-0.1_2
+style: gnu-makefile
+dropped: check phase do_check
+expect-needed: libc.so.6

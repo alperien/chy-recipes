@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/mdf2iso/template
+void-commit: baf54ffab7
+pkgver: mdf2iso-0.3.1_1
+style: gnu-configure
+expect-needed: libc.so.6

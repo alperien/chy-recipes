@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/libscrypt/template
+void-commit: aac67232f0
+pkgver: libscrypt-1.22_2
+style: gnu-makefile
+dropped: vlicense in post_install
+expect-needed: libc.so.6

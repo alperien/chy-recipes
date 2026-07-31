@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/isl/template
+void-commit: a631433ffb
+pkgver: isl-0.26_1
+style: gnu-configure
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libgmp.so.10

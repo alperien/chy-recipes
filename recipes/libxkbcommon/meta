@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/libxkbcommon/template
+void-commit: 79ec2a69b515
+pkgver: libxkbcommon-1.13.2_1
+style: meson
+dropped: vlicense in post_install
+expect-needed: libc.so.6

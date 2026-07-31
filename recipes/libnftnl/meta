@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/libnftnl/template
+void-commit: 0ee2946121db
+pkgver: libnftnl-1.3.1_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libmnl.so.0

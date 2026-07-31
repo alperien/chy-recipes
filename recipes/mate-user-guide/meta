@@ -1,0 +1,5 @@
+origin: translated
+template: srcpkgs/mate-user-guide/template
+void-commit: 445ec5ea675
+pkgver: mate-user-guide-1.28.0_1
+style: gnu-configure

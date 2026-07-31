@@ -1,0 +1,5 @@
+origin: translated
+template: srcpkgs/libbacktrace/template
+void-commit: 8d7c2ad59b5
+pkgver: libbacktrace-0.0.202504_1
+style: gnu-configure

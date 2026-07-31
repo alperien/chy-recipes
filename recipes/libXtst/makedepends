@@ -1,0 +1,4 @@
+libXext
+libXi
+pkg-config
+xorgproto

@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/libeot/template
+void-commit: fdfefff77f1
+pkgver: libeot-0.01_2
+style: gnu-configure
+expect-needed: libc.so.6

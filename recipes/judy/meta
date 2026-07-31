@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/judy/template
+void-commit: c604f613ed
+pkgver: judy-1.0.5_1
+style: gnu-configure
+dropped: build_helper qemu
+expect-needed: libc.so.6

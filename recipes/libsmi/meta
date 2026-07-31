@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/libsmi/template
+void-commit: 673aaeadd72
+pkgver: libsmi-0.5.0_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libm.so.6

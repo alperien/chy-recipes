@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/libnetfilter_acct/template
+void-commit: 1360874
+pkgver: libnetfilter_acct-1.0.3_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libmnl.so.0

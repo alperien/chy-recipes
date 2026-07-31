@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/libogg/template
+void-commit: a82c9b40006
+pkgver: libogg-1.3.6_1
+style: gnu-configure
+dropped: vlicense in post_install
+expect-needed: libc.so.6

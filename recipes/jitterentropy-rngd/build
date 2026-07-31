@@ -1,0 +1,5 @@
+#!/bin/sh -e
+export CFLAGS="${CFLAGS:+$CFLAGS }-O0"
+sed -i -e 's/sbin/bin/g' -e '/jitterentropy\.service\ /d' Makefile
+make
+make PREFIX="$CHY_PREFIX" DESTDIR="$1" install

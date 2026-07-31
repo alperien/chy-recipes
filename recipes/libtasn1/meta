@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/libtasn1/template
+void-commit: 3cf1c1bb88f8
+pkgver: libtasn1-4.21.0_2
+style: gnu-configure
+expect-needed: libc.so.6

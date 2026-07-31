@@ -1,0 +1,8 @@
+#!/bin/sh -e
+./configure \
+    --prefix="$CHY_PREFIX" \
+    --sysconfdir="$CHY_ROOT/etc" \
+    --disable-static
+sed -i -e '/<linux\/if_bridge.h>/i#define _LINUX_IN6_H' lib/route/link/bridge.c
+make
+make DESTDIR="$1" install

@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/ethtool/template
+void-commit: bc3dd653073
+pkgver: ethtool-6.15_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libm.so.6
+expect-needed: libmnl.so.0

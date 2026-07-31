@@ -1,0 +1,4 @@
+#!/bin/sh -e
+export CFLAGS="${CFLAGS:+$CFLAGS }-O0"
+make
+make PREFIX="$CHY_PREFIX" DESTDIR="$1" install

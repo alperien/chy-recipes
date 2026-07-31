@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/libmikmod/template
+void-commit: 13d36cc505
+pkgver: libmikmod-3.3.11.1_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libm.so.6
+expect-needed: libpthread.so.0

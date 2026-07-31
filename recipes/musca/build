@@ -1,0 +1,7 @@
+#!/bin/sh -e
+cp Makefile .
+make
+install -Dm755 musca "$1$CHY_ROOT/usr/bin/musca"
+install -Dm755 apis "$1$CHY_ROOT/usr/bin/apis"
+install -Dm755 xlisten "$1$CHY_ROOT/usr/bin/xlisten"
+install -Dm644 musca.1 "$1$CHY_ROOT/usr/share/man/man1/musca.1"

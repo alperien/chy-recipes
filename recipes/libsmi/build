@@ -1,0 +1,8 @@
+#!/bin/sh -e
+export CFLAGS="${CFLAGS:+$CFLAGS }-D_DEFAULT_SOURCE"
+./configure \
+    --prefix="$CHY_PREFIX" \
+    --sysconfdir="$CHY_ROOT/etc" \
+    WGET="$CHY_ROOT/usr/bin/wget"
+make
+make DESTDIR="$1" install

@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/libiptcdata/template
+void-commit: 9d7a946
+pkgver: libiptcdata-1.0.4_4
+style: gnu-configure
+expect-needed: libc.so.6

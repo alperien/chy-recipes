@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/libnfnetlink/template
+void-commit: 8c6199fe5c
+pkgver: libnfnetlink-1.0.2_1
+style: gnu-configure
+expect-needed: libc.so.6

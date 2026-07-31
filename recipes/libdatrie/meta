@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/libdatrie/template
+void-commit: 0df71b13b637
+pkgver: libdatrie-0.2.14_1
+style: gnu-configure
+expect-needed: libc.so.6

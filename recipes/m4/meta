@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/m4/template
+void-commit: 31d89e1c39
+pkgver: m4-1.4.19_1
+style: gnu-configure
+dropped: check phase pre_check
+expect-needed: libc.so.6

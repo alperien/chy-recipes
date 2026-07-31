@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/libxls/template
+void-commit: 96ba860bf0a
+pkgver: libxls-1.6.3_1
+style: gnu-configure
+dropped: vlicense in post_install
+expect-needed: libc.so.6

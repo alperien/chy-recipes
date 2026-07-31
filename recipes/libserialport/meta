@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/libserialport/template
+void-commit: f56b1ff8f9
+pkgver: libserialport-0.1.1_4
+style: gnu-configure
+expect-needed: libc.so.6

@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/libestr/template
+void-commit: 5b4ae22c73
+pkgver: libestr-0.1.11_1
+style: gnu-configure
+expect-needed: libc.so.6

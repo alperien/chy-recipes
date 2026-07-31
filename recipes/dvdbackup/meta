@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/dvdbackup/template
+void-commit: 271cfd843b
+pkgver: dvdbackup-0.4.2_3
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libdvdread.so.8

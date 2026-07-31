@@ -1,0 +1,5 @@
+origin: translated
+template: srcpkgs/mate-backgrounds/template
+void-commit: 445ec5ea675
+pkgver: mate-backgrounds-1.28.0_1
+style: gnu-configure

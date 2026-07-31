@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/libwhich/template
+void-commit: 434989c010
+pkgver: libwhich-1.1.0_1
+style: gnu-makefile
+dropped: vlicense in do_install
+expect-needed: libc.so.6
+expect-needed: libdl.so.2

@@ -1,0 +1,5 @@
+libXext
+meson
+ninja
+pkg-config
+xorgproto

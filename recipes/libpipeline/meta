@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/libpipeline/template
+void-commit: 2268ea5f932
+pkgver: libpipeline-1.5.8_1
+style: gnu-configure
+expect-needed: libc.so.6

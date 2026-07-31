@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/libunistring/template
+void-commit: 29ae5a4ba1
+pkgver: libunistring-1.0_1
+style: gnu-configure
+expect-needed: libc.so.6

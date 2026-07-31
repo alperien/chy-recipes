@@ -1,0 +1,4 @@
+libXext
+libXrender
+pkg-config
+xorgproto

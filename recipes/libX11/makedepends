@@ -1,0 +1,5 @@
+libxcb
+pkg-config
+xorg-util-macros
+xorgproto
+xtrans

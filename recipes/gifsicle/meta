@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/gifsicle/template
+void-commit: 8788e2c49e9b
+pkgver: gifsicle-1.96_1
+style: gnu-configure
+dropped: check phase do_check
+expect-needed: libX11.so.6
+expect-needed: libc.so.6
+expect-needed: libm.so.6

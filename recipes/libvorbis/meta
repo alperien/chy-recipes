@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/libvorbis/template
+void-commit: e1fe41124b
+pkgver: libvorbis-1.3.7_1
+style: gnu-configure
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libm.so.6
+expect-needed: libogg.so.0

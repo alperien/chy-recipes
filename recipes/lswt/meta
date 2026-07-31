@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/lswt/template
+void-commit: 8431cfa9002
+pkgver: lswt-2.0.0_1
+style: gnu-makefile
+expect-needed: libc.so.6
+expect-needed: libwayland-client.so.0

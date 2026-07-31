@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/libksba/template
+void-commit: 286b7d44dc5
+pkgver: libksba-1.6.6_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libgpg-error.so.0

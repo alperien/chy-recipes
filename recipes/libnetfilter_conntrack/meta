@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/libnetfilter_conntrack/template
+void-commit: 2e8762caa85
+pkgver: libnetfilter_conntrack-1.1.0_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libmnl.so.0
+expect-needed: libnfnetlink.so.0

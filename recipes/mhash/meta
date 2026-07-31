@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/mhash/template
+void-commit: f67387733a
+pkgver: mhash-0.9.9.9_2
+style: gnu-configure
+expect-needed: libc.so.6

@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/libt3config/template
+void-commit: ae475e0ef3
+pkgver: libt3config-1.0.0_1
+style: configure
+expect-needed: libc.so.6

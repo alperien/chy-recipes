@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/cddlib/template
+void-commit: be4b4a74e5
+pkgver: cddlib-0.94m_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libgmp.so.10

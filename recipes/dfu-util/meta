@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/dfu-util/template
+void-commit: 07147b6f80
+pkgver: dfu-util-0.11_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libusb-1.0.so.0

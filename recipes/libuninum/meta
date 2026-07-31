@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/libuninum/template
+void-commit: 00a2a83575
+pkgver: libuninum-2.7_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libgmp.so.10
+expect-needed: libm.so.6

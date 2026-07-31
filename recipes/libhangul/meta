@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/libhangul/template
+void-commit: fa4050641bba
+pkgver: libhangul-0.2.0_1
+style: gnu-configure
+expect-needed: libc.so.6

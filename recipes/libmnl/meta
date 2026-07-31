@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/libmnl/template
+void-commit: 198463dce7
+pkgver: libmnl-1.0.5_1
+style: gnu-configure
+expect-needed: libc.so.6

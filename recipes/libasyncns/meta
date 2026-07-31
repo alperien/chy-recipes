@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/libasyncns/template
+void-commit: 641c32d0d2
+pkgver: libasyncns-0.8_9
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libpthread.so.0
+expect-needed: libresolv.so.2

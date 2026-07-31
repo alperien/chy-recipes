@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/glpk/template
+void-commit: 6a00170a7d
+pkgver: glpk-5.0_2
+style: gnu-configure
+expect-needed: ld-linux-x86-64.so.2
+expect-needed: libc.so.6
+expect-needed: libgmp.so.10
+expect-needed: libm.so.6

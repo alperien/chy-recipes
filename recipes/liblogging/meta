@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/liblogging/template
+void-commit: 082f74fd24
+pkgver: liblogging-1.0.6_2
+style: gnu-configure
+expect-needed: libc.so.6

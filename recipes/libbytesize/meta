@@ -1,0 +1,10 @@
+origin: translated
+template: srcpkgs/libbytesize/template
+void-commit: 509e3d0df01
+pkgver: libbytesize-2.10_3
+style: gnu-configure
+dropped: check phase pre_check
+expect-needed: libc.so.6
+expect-needed: libgmp.so.10
+expect-needed: libmpfr.so.6
+expect-needed: libpcre2-8.so.0

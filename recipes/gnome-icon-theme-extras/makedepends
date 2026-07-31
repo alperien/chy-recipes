@@ -1,0 +1,5 @@
+gnome-icon-theme
+gtk+3
+icon-naming-utils
+intltool
+pkg-config

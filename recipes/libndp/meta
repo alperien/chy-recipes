@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/libndp/template
+void-commit: 580546374e1
+pkgver: libndp-1.9_1
+style: gnu-configure
+expect-needed: ld-linux-x86-64.so.2
+expect-needed: libc.so.6

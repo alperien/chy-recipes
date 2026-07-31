@@ -1,0 +1,5 @@
+origin: translated
+template: srcpkgs/memtest86+/template
+void-commit: 582875233a4
+pkgver: memtest86+-8.10_1
+style: gnu-makefile

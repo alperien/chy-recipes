@@ -1,0 +1,4 @@
+#!/bin/sh -e
+export LDFLAGS="${LDFLAGS:+$LDFLAGS }-lX11"
+make
+make PREFIX="$CHY_PREFIX" DESTDIR="$1" install

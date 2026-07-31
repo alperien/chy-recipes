@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/lsscsi/template
+void-commit: 181df526f1
+pkgver: lsscsi-0.32_1
+style: gnu-configure
+expect-needed: libc.so.6

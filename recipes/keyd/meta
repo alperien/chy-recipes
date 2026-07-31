@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/keyd/template
+void-commit: 4fd5d03311d
+pkgver: keyd-2.6.0_2
+style: gnu-makefile
+dropped: vlicense in post_install
+dropped: vsv in post_install
+expect-needed: libc.so.6

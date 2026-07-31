@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/lzop/template
+void-commit: 59ce873e8f
+pkgver: lzop-1.04_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: liblzo2.so.2

@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/libgpg-error/template
+void-commit: c935a68bfe4c
+pkgver: libgpg-error-1.58_1
+style: gnu-configure
+dropped: build_helper qemu
+expect-needed: libc.so.6

@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/libraw1394/template
+void-commit: aa1e521
+pkgver: libraw1394-2.1.2_1
+style: gnu-configure
+expect-needed: libc.so.6

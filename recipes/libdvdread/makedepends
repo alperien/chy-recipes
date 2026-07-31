@@ -1,0 +1,4 @@
+libdvdcss
+meson
+ninja
+pkg-config

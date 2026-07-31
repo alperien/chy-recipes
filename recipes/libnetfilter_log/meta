@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/libnetfilter_log/template
+void-commit: 6f6063a0e7
+pkgver: libnetfilter_log-1.0.2_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libmnl.so.0
+expect-needed: libnfnetlink.so.0

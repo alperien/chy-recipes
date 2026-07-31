@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/libburn/template
+void-commit: 8976797cad4
+pkgver: libburn-1.5.8_1
+style: gnu-configure
+expect-needed: libc.so.6

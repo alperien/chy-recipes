@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/libexttextcat/template
+void-commit: 53f15d5496
+pkgver: libexttextcat-3.4.6_1
+style: gnu-configure
+expect-needed: libc.so.6

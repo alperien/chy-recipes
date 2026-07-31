@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/lrcalc/template
+void-commit: 300bcb86a8
+pkgver: lrcalc-2.1_1
+style: gnu-configure
+expect-needed: libc.so.6

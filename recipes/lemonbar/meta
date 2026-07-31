@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/lemonbar/template
+void-commit: 2ee72cd67e6
+pkgver: lemonbar-1.5_1
+style: gnu-makefile
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libxcb-randr.so.0
+expect-needed: libxcb.so.1

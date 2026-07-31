@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/libax25/template
+void-commit: 43e4ba91bc
+pkgver: libax25-0.0.12.rc4_1
+style: gnu-configure
+expect-needed: libc.so.6

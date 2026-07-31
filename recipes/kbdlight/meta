@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/kbdlight/template
+void-commit: 5380331973
+pkgver: kbdlight-1.3_2
+style: gnu-makefile
+dropped: vlicense in post_install
+expect-needed: libc.so.6

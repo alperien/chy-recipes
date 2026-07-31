@@ -1,0 +1,9 @@
+#!/bin/sh -e
+export CFLAGS="${CFLAGS:+$CFLAGS }-D_GNU_SOURCE"
+make
+install -Dm755 fdisk "$1$CHY_ROOT/usr/bin/mac-fdisk"
+install -Dm755 pdisk "$1$CHY_ROOT/usr/bin/pmac-fdisk"
+cp -pf mac-fdisk.8.in mac-fdisk.8
+cp -pf pmac-fdisk.8.in pmac-fdisk.8
+install -Dm644 mac-fdisk.8 "$1$CHY_ROOT/usr/share/man/man8/mac-fdisk.8"
+install -Dm644 pmac-fdisk.8 "$1$CHY_ROOT/usr/share/man/man8/pmac-fdisk.8"

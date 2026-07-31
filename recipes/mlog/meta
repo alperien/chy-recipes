@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/mlog/template
+void-commit: 069b5eecaa0
+pkgver: mlog-0.1_1
+style: gnu-makefile
+expect-needed: libc.so.6

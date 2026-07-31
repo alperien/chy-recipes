@@ -1,0 +1,9 @@
+#!/bin/sh -e
+./configure \
+    --prefix="$CHY_PREFIX" \
+    --sysconfdir="$CHY_ROOT/etc" \
+    --program-prefix=lib \
+    --enable-static
+make
+make DESTDIR="$1" install
+sed '/^$/q' include/xls.h LICENSE

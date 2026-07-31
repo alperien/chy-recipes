@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/mmv/template
+void-commit: a6908ddca75
+pkgver: mmv-2.10_1
+style: gnu-configure
+dropped: build_helper qemu
+expect-needed: libc.so.6

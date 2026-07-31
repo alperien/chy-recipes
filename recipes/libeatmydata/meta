@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/libeatmydata/template
+void-commit: 77490064103
+pkgver: libeatmydata-131_1
+style: gnu-configure
+expect-needed: ld-linux-x86-64.so.2
+expect-needed: libc.so.6

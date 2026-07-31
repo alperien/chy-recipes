@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/libopenaptx/template
+void-commit: 50864d3c1a
+pkgver: libopenaptx-0.2.0_1
+style: gnu-makefile
+expect-needed: libc.so.6

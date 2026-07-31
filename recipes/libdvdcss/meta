@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/libdvdcss/template
+void-commit: fc2789115d6
+pkgver: libdvdcss-1.5.0_1
+style: meson
+expect-needed: libc.so.6

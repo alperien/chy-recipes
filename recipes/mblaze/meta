@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/mblaze/template
+void-commit: 0ef2ce14de6
+pkgver: mblaze-1.4_1
+style: gnu-makefile
+dropped: vlicense in post_install
+expect-needed: libc.so.6

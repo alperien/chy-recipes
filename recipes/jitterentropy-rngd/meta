@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/jitterentropy-rngd/template
+void-commit: 2277b4df512
+pkgver: jitterentropy-rngd-1.2.8_1
+style: gnu-makefile
+dropped: vlicense in post_install
+expect-needed: libc.so.6

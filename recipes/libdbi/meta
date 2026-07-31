@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/libdbi/template
+void-commit: d31ea8d62d
+pkgver: libdbi-0.9.0_1
+style: gnu-configure
+expect-needed: libc.so.6

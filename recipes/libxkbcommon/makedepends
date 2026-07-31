@@ -1,0 +1,10 @@
+bison
+libxcb
+libxml2
+meson
+ninja
+pkg-config
+wayland
+wayland-protocols
+xkeyboard-config
+xorgproto

@@ -1,0 +1,4 @@
+libXfixes
+libXrandr
+pkg-config
+xorg-util-macros

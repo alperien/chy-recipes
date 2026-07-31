@@ -1,0 +1,5 @@
+libXext
+libXfixes
+pkg-config
+xmlto
+xorgproto

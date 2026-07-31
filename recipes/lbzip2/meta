@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/lbzip2/template
+void-commit: d34b5212c5
+pkgver: lbzip2-2.5_2
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libpthread.so.0

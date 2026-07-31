@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/libdvdnav/template
+void-commit: cc1b5b1ab1
+pkgver: libdvdnav-6.1.1_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libdvdread.so.8
+expect-needed: libpthread.so.0

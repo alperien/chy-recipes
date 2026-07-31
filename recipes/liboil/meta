@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/liboil/template
+void-commit: 1e36a172aa
+pkgver: liboil-0.3.17_6
+style: gnu-configure
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libm.so.6
+expect-needed: librt.so.1

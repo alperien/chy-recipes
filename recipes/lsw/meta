@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/lsw/template
+void-commit: ca0fcd30ed
+pkgver: lsw-0.3_3
+style: gnu-makefile
+dropped: vlicense in post_install
+expect-needed: libX11.so.6
+expect-needed: libc.so.6

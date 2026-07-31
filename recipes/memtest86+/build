@@ -1,0 +1,5 @@
+#!/bin/sh -e
+make
+install -Dm755 mt86plus "$1$CHY_ROOT/boot/memtest86+/memtest.bin"
+install -Dm755 mt86plus "$1$CHY_ROOT/boot/memtest86+/memtest.efi"
+install -Dm755 20_memtest86+ "$1$CHY_ROOT/etc/grub.d/20_memtest86+"

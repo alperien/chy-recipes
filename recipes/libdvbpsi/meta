@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/libdvbpsi/template
+void-commit: 39224cb55c2
+pkgver: libdvbpsi-1.3.3_1
+style: gnu-configure
+expect-needed: libc.so.6

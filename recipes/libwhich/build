@@ -1,0 +1,3 @@
+#!/bin/sh -e
+make
+install -Dm755 libwhich "$1$CHY_ROOT/usr/bin/libwhich"

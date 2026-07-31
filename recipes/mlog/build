@@ -1,0 +1,4 @@
+#!/bin/sh -e
+make
+install -Dm755 mlog "$1$CHY_ROOT/usr/bin/mlog"
+install -Dm644 mlog.1 "$1$CHY_ROOT/usr/share/man/man1/mlog.1"

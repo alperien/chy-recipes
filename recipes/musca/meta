@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/musca/template
+void-commit: cefcdbac6d
+pkgver: musca-0.9.24_4
+style: gnu-makefile
+expect-needed: libX11.so.6
+expect-needed: libc.so.6
+expect-needed: libm.so.6

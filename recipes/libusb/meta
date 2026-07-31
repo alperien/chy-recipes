@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/libusb/template
+void-commit: db3791bdf68
+pkgver: libusb-1.0.29_1
+style: gnu-configure
+expect-needed: ld-linux-x86-64.so.2
+expect-needed: libc.so.6
+expect-needed: libudev.so.1

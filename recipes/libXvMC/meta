@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/libXvMC/template
+void-commit: 479cfed2eba
+pkgver: libXvMC-1.0.14_1
+style: gnu-configure
+dropped: vlicense in post_install
+expect-needed: libX11.so.6
+expect-needed: libXext.so.6
+expect-needed: libc.so.6

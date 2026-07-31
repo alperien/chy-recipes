@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/libmaxminddb/template
+void-commit: a157e3245d9
+pkgver: libmaxminddb-1.9.1_1
+style: gnu-configure
+expect-needed: libc.so.6

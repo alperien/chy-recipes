@@ -1,0 +1,10 @@
+#!/bin/sh -e
+./configure \
+    --prefix="$CHY_PREFIX" \
+    --sbindir="$CHY_ROOT/usr/bin" \
+    --sysconfdir="$CHY_ROOT/etc" \
+    --rundir="$CHY_ROOT/run/dhcpcd" \
+    --disable-privsep
+make
+make DESTDIR="$1" install
+sed -e 's,^#\(controlgroup.*\),\1,' -i "$1$CHY_ROOT/etc/dhcpcd.conf"

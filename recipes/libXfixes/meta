@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/libXfixes/template
+void-commit: cf18250d260c
+pkgver: libXfixes-6.0.2_1
+style: gnu-configure
+dropped: vlicense in post_install
+expect-needed: libX11.so.6
+expect-needed: libc.so.6

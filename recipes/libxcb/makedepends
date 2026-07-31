@@ -1,0 +1,6 @@
+libXau
+libXdmcp
+libtool
+pkg-config
+xcb-proto
+xorg-util-macros

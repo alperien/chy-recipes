@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/libdvdread/template
+void-commit: fc2789115d6
+pkgver: libdvdread-7.0.1_1
+style: meson
+expect-needed: libc.so.6
+expect-needed: libdvdcss.so.2

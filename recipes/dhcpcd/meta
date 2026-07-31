@@ -1,0 +1,11 @@
+origin: translated
+template: srcpkgs/dhcpcd/template
+void-commit: ac4dbe31f32
+pkgver: dhcpcd-10.3.1_1
+style: configure
+dropped: conf_files
+dropped: system_accounts
+dropped: vlicense in post_install
+dropped: vsv in post_install
+expect-needed: libc.so.6
+expect-needed: libudev.so.1

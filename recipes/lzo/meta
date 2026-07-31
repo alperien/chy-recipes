@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/lzo/template
+void-commit: cde0bd6a7279
+pkgver: lzo-2.10_3
+style: gnu-configure
+expect-needed: libc.so.6

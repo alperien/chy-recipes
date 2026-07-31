@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/lolcat-c/template
+void-commit: 74905cdfe0e
+pkgver: lolcat-c-1.5_1
+style: gnu-makefile
+expect-needed: libc.so.6
+expect-needed: libm.so.6

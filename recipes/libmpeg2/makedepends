@@ -1,0 +1,4 @@
+libXext
+libXv
+pkg-config
+sdl12-compat

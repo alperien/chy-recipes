@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/libguess/template
+void-commit: 3011cbae51
+pkgver: libguess-1.2_4
+style: gnu-configure
+dropped: vlicense in post_install
+expect-needed: libc.so.6

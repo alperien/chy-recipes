@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/miniupnpc/template
+void-commit: b38762a6ad9
+pkgver: miniupnpc-2.2.7_1
+style: gnu-makefile
+dropped: vlicense in post_install
+expect-needed: libc.so.6

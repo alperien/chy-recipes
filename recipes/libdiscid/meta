@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/libdiscid/template
+void-commit: cf8026d18dd
+pkgver: libdiscid-0.6.4_1
+style: gnu-configure
+expect-needed: ld-linux-x86-64.so.2
+expect-needed: libc.so.6

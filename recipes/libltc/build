@@ -1,0 +1,7 @@
+#!/bin/sh -e
+./configure \
+    --prefix="$CHY_PREFIX" \
+    --sysconfdir="$CHY_ROOT/etc"
+make
+make DESTDIR="$1" install
+install -Dm644 doc/man/man3/ltc.h.3 "$1$CHY_ROOT/usr/share/man/man3/ltc.h.3"

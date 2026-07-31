@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/libtcd/template
+void-commit: c52f9b707d
+pkgver: libtcd-2.2.7.r3_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libm.so.6

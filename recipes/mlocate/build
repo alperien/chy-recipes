@@ -1,0 +1,10 @@
+#!/bin/sh -e
+./configure \
+    --prefix="$CHY_PREFIX" \
+    --sysconfdir="$CHY_ROOT/etc" \
+    --program-prefix=m \
+    --localstatedir="$CHY_ROOT/var/lib"
+make
+make DESTDIR="$1" install
+install -Dm744 mupdatedb.cron-daily "$1$CHY_ROOT/etc/cron.daily/mupdatedb"
+mv "$1$CHY_ROOT/usr/share/man/man8/mupdatedb.8" "$1$CHY_ROOT/usr/share/man/man1/mupdatedb.1"

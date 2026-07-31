@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/libart/template
+void-commit: 1e36a172aa
+pkgver: libart-2.3.21_7
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libm.so.6

@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/mdns-scan/template
+void-commit: eda930890e
+pkgver: mdns-scan-0.5_1
+style: gnu-makefile
+expect-needed: libc.so.6

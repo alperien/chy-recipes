@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/libmpeg2/template
+void-commit: b9890339f6e
+pkgver: libmpeg2-0.5.1_12
+style: gnu-configure
+expect-needed: libc.so.6

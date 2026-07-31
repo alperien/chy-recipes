@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/libassuan/template
+void-commit: 15edfed513f
+pkgver: libassuan-2.5.7_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libgpg-error.so.0

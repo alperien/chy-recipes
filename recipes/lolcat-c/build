@@ -1,0 +1,3 @@
+#!/bin/sh -e
+make lolcat
+install -Dm755 lolcat "$1$CHY_ROOT/usr/bin/lolcat"

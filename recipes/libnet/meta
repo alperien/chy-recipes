@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/libnet/template
+void-commit: 22ad157147e
+pkgver: libnet-1.3_1
+style: gnu-configure
+expect-needed: libc.so.6

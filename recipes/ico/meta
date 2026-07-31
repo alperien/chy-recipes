@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/ico/template
+void-commit: 12d2ee84e44
+pkgver: ico-1.0.7_1
+style: gnu-configure
+dropped: vlicense in post_install
+expect-needed: libX11.so.6
+expect-needed: libc.so.6

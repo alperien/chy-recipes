@@ -1,0 +1,4 @@
+#!/bin/sh -e
+sed -i -e 's/LDFLAGS.=/override LDFLAGS+=/' Makefile
+make
+make PREFIX="$CHY_PREFIX" DESTDIR="$1" install

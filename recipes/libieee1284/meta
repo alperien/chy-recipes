@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/libieee1284/template
+void-commit: 1e36a172aa
+pkgver: libieee1284-0.2.11_4
+style: gnu-configure
+expect-needed: libc.so.6

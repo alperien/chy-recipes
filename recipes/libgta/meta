@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/libgta/template
+void-commit: 0a86cf374f
+pkgver: libgta-1.2.1_1
+style: gnu-configure
+expect-needed: libc.so.6

@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/libmspack/template
+void-commit: cb95aaa6d9
+pkgver: libmspack-0.10.1alpha_1
+style: gnu-configure
+expect-needed: libc.so.6

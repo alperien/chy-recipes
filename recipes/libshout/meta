@@ -1,0 +1,11 @@
+origin: translated
+template: srcpkgs/libshout/template
+void-commit: 7dfd097b9e
+pkgver: libshout-2.4.5_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libogg.so.0
+expect-needed: libpthread.so.0
+expect-needed: libspeex.so.1
+expect-needed: libtheora.so.0
+expect-needed: libvorbis.so.0

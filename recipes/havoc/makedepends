@@ -1,0 +1,4 @@
+libxkbcommon
+pkg-config
+wayland
+wayland-protocols

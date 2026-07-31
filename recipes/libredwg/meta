@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/libredwg/template
+void-commit: 6f9e19ac6ac
+pkgver: libredwg-0.13.3_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libm.so.6

@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/libnetfilter_cttimeout/template
+void-commit: 6f6063a0e7
+pkgver: libnetfilter_cttimeout-1.0.1_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libmnl.so.0

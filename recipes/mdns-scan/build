@@ -1,0 +1,3 @@
+#!/bin/sh -e
+make
+install -Dm755 mdns-scan "$1$CHY_ROOT/usr/bin/mdns-scan"
