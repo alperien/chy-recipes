@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/xcursor-themes/template
+void-commit: 1834ce26cb
+pkgver: xcursor-themes-1.0.7_1
+style: gnu-configure
+dropped: vlicense in post_install

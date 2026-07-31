@@ -1,0 +1,6 @@
+#!/bin/sh -e
+export CFLAGS="${CFLAGS:+$CFLAGS }-fcommon"
+make
+install -Dm755 rixc "$1$CHY_ROOT/usr/bin/rixc"
+install -Dm755 clr.sh "$1$CHY_ROOT/usr/bin/clr.sh"
+install -Dm755 comp.sh "$1$CHY_ROOT/usr/bin/comp.sh"

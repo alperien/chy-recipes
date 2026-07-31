@@ -1,0 +1,10 @@
+origin: translated
+template: srcpkgs/xcb-util-image/template
+void-commit: 4cb8ed3f3b
+pkgver: xcb-util-image-0.4.1_1
+style: gnu-configure
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libxcb-shm.so.0
+expect-needed: libxcb-util.so.1
+expect-needed: libxcb.so.1

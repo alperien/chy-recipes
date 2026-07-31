@@ -1,0 +1,6 @@
+bison
+libX11
+libxkbfile
+meson
+ninja
+pkg-config

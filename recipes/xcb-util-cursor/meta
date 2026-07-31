@@ -1,0 +1,11 @@
+origin: translated
+template: srcpkgs/xcb-util-cursor/template
+void-commit: c0ec66d3e4
+pkgver: xcb-util-cursor-0.1.4_1
+style: gnu-configure
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libxcb-image.so.0
+expect-needed: libxcb-render-util.so.0
+expect-needed: libxcb-render.so.0
+expect-needed: libxcb.so.1

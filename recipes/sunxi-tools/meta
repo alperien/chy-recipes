@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/sunxi-tools/template
+void-commit: 0359a94ff3
+pkgver: sunxi-tools-1.4.2_1
+style: gnu-makefile
+expect-needed: libc.so.6
+expect-needed: libusb-1.0.so.0

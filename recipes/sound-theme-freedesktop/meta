@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/sound-theme-freedesktop/template
+void-commit: 97b3fad7e0
+pkgver: sound-theme-freedesktop-0.8_3
+style: gnu-configure
+dropped: vlicense in post_install

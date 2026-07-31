@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/sysfsutils/template
+void-commit: 53d9363523
+pkgver: sysfsutils-2.1.0_7
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libsysfs.so.2

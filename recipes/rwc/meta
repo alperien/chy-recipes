@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/rwc/template
+void-commit: 0465981d56f
+pkgver: rwc-0.3_1
+style: gnu-makefile
+expect-needed: libc.so.6

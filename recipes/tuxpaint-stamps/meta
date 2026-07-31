@@ -1,0 +1,5 @@
+origin: translated
+template: srcpkgs/tuxpaint-stamps/template
+void-commit: a31d67eb8734
+pkgver: tuxpaint-stamps-2025.05.26_1
+style: gnu-makefile

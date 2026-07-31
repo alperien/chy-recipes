@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/pdfcrack/template
+void-commit: b79cabbb7d
+pkgver: pdfcrack-0.20_1
+style: gnu-makefile
+expect-needed: libc.so.6

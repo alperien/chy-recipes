@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/qed/template
+void-commit: 452b6886c05
+pkgver: qed-2.0.1_1
+style: gnu-makefile
+expect-needed: libc.so.6

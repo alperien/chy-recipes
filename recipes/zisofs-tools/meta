@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/zisofs-tools/template
+void-commit: ce947824d6
+pkgver: zisofs-tools-1.0.8_6
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libz.so.1

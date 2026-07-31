@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/s6-man-pages/template
+void-commit: 33782826a57
+pkgver: s6-man-pages-2.13.1.0.1_1
+style: gnu-makefile
+dropped: vlicense in post_install

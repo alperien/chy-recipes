@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/skalibs/template
+void-commit: dd7fcca76c9
+pkgver: skalibs-2.15.0.0_1
+style: configure
+dropped: vlicense in post_install
+expect-needed: libc.so.6

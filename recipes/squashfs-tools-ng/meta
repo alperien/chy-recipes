@@ -1,0 +1,11 @@
+origin: translated
+template: srcpkgs/squashfs-tools-ng/template
+void-commit: 12b5b7ac733
+pkgver: squashfs-tools-ng-1.3.2_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: liblz4.so.1
+expect-needed: liblzma.so.5
+expect-needed: liblzo2.so.2
+expect-needed: libz.so.1
+expect-needed: libzstd.so.1

@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/odt2txt/template
+void-commit: 3b9cd990c9
+pkgver: odt2txt-0.5_3
+style: gnu-makefile
+expect-needed: libc.so.6
+expect-needed: libz.so.1

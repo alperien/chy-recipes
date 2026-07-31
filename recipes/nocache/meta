@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/nocache/template
+void-commit: 69810f63cf
+pkgver: nocache-1.2_1
+style: gnu-makefile
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libdl.so.2
+expect-needed: libpthread.so.0

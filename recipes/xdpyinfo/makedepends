@@ -1,0 +1,6 @@
+libXcomposite
+libXext
+libXinerama
+libXrender
+libXtst
+pkg-config

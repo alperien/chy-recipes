@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/sunwait/template
+void-commit: 0f3dc7ab6d
+pkgver: sunwait-0.9.1_2
+style: gnu-makefile
+expect-needed: libc.so.6
+expect-needed: libm.so.6

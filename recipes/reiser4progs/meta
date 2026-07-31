@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/reiser4progs/template
+void-commit: 08e09cd60d
+pkgver: reiser4progs-1.2.1_1
+style: gnu-configure
+expect-needed: libaal-1.0.so.7
+expect-needed: libaal-minimal.so.0
+expect-needed: libc.so.6

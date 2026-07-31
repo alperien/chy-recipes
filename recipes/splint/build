@@ -1,0 +1,8 @@
+#!/bin/sh -e
+sed -i 's/__pid_t/pid_t/g' src/osd.c
+sed -i -e '/RM.*[.]tab[.]h/d' src/Makefile.am src/Makefile.in
+./configure \
+    --prefix="$CHY_PREFIX" \
+    --sysconfdir="$CHY_ROOT/etc"
+make
+make DESTDIR="$1" install

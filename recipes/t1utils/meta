@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/t1utils/template
+void-commit: 31c64fc462
+pkgver: t1utils-1.42_1
+style: gnu-configure
+dropped: vlicense in post_install
+expect-needed: libc.so.6

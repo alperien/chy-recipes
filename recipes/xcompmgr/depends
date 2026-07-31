@@ -1,0 +1,6 @@
+libX11
+libXcomposite
+libXdamage
+libXext
+libXfixes
+libXrender

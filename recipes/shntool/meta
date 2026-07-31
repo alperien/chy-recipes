@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/shntool/template
+void-commit: 13bb9d0b23
+pkgver: shntool-3.0.10_3
+style: gnu-configure
+expect-needed: libc.so.6

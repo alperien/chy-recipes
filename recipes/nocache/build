@@ -1,0 +1,4 @@
+#!/bin/sh -e
+sed -e '/#include <error.h>/d' -i cachedel.c -i cachestats.c
+make
+make PREFIX="$CHY_PREFIX" DESTDIR="$1" install

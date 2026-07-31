@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/tanidvr/template
+void-commit: 8f050e3ba1
+pkgver: tanidvr-1.4.1_2
+style: gnu-configure
+expect-needed: libc.so.6

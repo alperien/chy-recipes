@@ -1,0 +1,5 @@
+libXext
+libXi
+libXinerama
+libXrandr
+pkg-config

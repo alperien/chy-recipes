@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/xkbcomp/template
+void-commit: d550d6d52d8
+pkgver: xkbcomp-1.5.0_1
+style: meson
+dropped: vlicense in post_install
+expect-needed: libX11.so.6
+expect-needed: libc.so.6
+expect-needed: libxkbfile.so.1

@@ -1,0 +1,4 @@
+libxcb
+m4
+pkg-config
+xcb-util

@@ -1,0 +1,9 @@
+intltool
+libX11
+libxslt
+meson
+ninja
+perl
+pkg-config
+python3
+xkbcomp

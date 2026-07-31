@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/xkeyboard-config/template
+void-commit: cffb91cf9a3
+pkgver: xkeyboard-config-2.48_1
+style: meson
+dropped: vlicense in post_install

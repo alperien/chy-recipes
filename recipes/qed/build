@@ -1,0 +1,4 @@
+#!/bin/sh -e
+make
+install -Dm755 a.out "$1$CHY_ROOT/usr/bin/qed"
+install -Dm644 qed.1 "$1$CHY_ROOT/usr/share/man/man1/qed.1"

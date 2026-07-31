@@ -1,0 +1,4 @@
+#!/bin/sh -e
+make
+make PREFIX="$CHY_PREFIX" DESTDIR="$1" install
+install -Dm644 50-wchisp.rules "$1$CHY_ROOT/usr/lib/udev/rules.d/50-wchisp.rules"

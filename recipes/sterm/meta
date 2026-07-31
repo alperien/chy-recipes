@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/sterm/template
+void-commit: be5ea5ce59fa
+pkgver: sterm-20200306_2
+style: gnu-makefile
+expect-needed: libc.so.6

@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/pwgen/template
+void-commit: d1b72a8c8e
+pkgver: pwgen-2.08_2
+style: gnu-configure
+expect-needed: libc.so.6

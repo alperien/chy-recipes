@@ -1,0 +1,12 @@
+#!/bin/sh -e
+./configure \
+    --prefix="$CHY_PREFIX" \
+    --enable-static \
+    --enable-shared \
+    --enable-force-devr \
+    --datadir="$CHY_ROOT/usr/share/skalibs" \
+    --bindir="$CHY_ROOT/usr/bin" \
+    --dynlibdir="$CHY_ROOT/usr/lib" \
+    --with-sysdep-devurandom=yes
+make
+make DESTDIR="$1" install

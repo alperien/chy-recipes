@@ -1,0 +1,5 @@
+#!/bin/sh -e
+make
+install -Dm755 pigz "$1$CHY_ROOT/usr/bin/pigz"
+install -Dm644 pigz.1 "$1$CHY_ROOT/usr/share/man/man1/pigz.1"
+ln -s pigz "$1$CHY_ROOT/usr/bin/unpigz"

@@ -1,0 +1,8 @@
+libX11
+libXcomposite
+libXext
+libXi
+libXinerama
+libXrender
+libXtst
+libxcb

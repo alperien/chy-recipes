@@ -1,0 +1,4 @@
+#!/bin/sh -e
+make
+mkdir -p "$1$CHY_ROOT/usr/share/bash-completion/completions"
+make PREFIX="$CHY_PREFIX" DESTDIR="$1" install

@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/xskat/template
+void-commit: 7dc5d24bf5
+pkgver: xskat-4.0_5
+style: gnu-makefile
+dropped: vlicense in do_install
+expect-needed: libX11.so.6
+expect-needed: libc.so.6

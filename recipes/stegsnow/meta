@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/stegsnow/template
+void-commit: 21def91b12
+pkgver: stegsnow-20130616_1
+style: gnu-makefile
+expect-needed: libc.so.6

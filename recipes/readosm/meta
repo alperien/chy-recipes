@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/readosm/template
+void-commit: 266de636f7
+pkgver: readosm-1.1.0a_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libexpat.so.1
+expect-needed: libz.so.1

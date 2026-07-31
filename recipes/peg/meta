@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/peg/template
+void-commit: 74c9b74200
+pkgver: peg-0.1.18_1
+style: gnu-makefile
+expect-needed: libc.so.6

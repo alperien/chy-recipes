@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/sdb/template
+void-commit: ca2175fd1a1
+pkgver: sdb-1.4.1_1
+style: gnu-makefile
+expect-needed: libc.so.6

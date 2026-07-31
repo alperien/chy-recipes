@@ -1,0 +1,5 @@
+#!/bin/sh -e
+export LDFLAGS="${LDFLAGS:+$LDFLAGS }-lxcb"
+sed -i 's|@$(LD)|@$(CC)|g' Makefile
+make
+make PREFIX="$CHY_PREFIX" DESTDIR="$1" install

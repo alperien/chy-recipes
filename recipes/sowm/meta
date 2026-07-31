@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/sowm/template
+void-commit: 246c7a1f48
+pkgver: sowm-1.6_1
+style: gnu-makefile
+dropped: vlicense in post_install
+expect-needed: libX11.so.6
+expect-needed: libc.so.6

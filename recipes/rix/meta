@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/rix/template
+void-commit: fdf3158f4d
+pkgver: rix-0.3.0_2
+style: gnu-makefile
+expect-needed: libc.so.6

@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/netsed/template
+void-commit: e2e5144a5af
+pkgver: netsed-1.4_1
+style: gnu-makefile
+expect-needed: libc.so.6

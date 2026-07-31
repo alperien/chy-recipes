@@ -1,0 +1,10 @@
+origin: translated
+template: srcpkgs/xbacklight/template
+void-commit: 63797f650cd
+pkgver: xbacklight-1.2.4_1
+style: gnu-configure
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libxcb-randr.so.0
+expect-needed: libxcb-util.so.1
+expect-needed: libxcb.so.1

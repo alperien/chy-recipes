@@ -1,0 +1,4 @@
+#!/bin/sh -e
+make
+install -Dm755 parprouted "$1$CHY_ROOT/usr/bin/parprouted"
+install -Dm644 parprouted.8 "$1$CHY_ROOT/usr/share/man/man8/parprouted.8"

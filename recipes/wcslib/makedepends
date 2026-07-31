@@ -1,0 +1,5 @@
+cfitsio
+gcc
+libX11
+libpng
+zlib

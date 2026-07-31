@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/wayland/template
+void-commit: 287f0b5c88d
+pkgver: wayland-1.26.0_1
+style: meson
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libffi.so.7

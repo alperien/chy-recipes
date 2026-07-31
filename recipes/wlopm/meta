@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/wlopm/template
+void-commit: 8491ae567d5
+pkgver: wlopm-1.0.0_1
+style: gnu-makefile
+expect-needed: libc.so.6
+expect-needed: libwayland-client.so.0

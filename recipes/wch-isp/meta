@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/wch-isp/template
+void-commit: 3687f9facaf
+pkgver: wch-isp-0.5.0_1
+style: gnu-makefile
+expect-needed: libc.so.6
+expect-needed: libusb-1.0.so.0

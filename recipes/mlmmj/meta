@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/mlmmj/template
+void-commit: f8951eacbdc6
+pkgver: mlmmj-2.1.0_1
+style: gnu-configure
+dropped: vlicense in post_install
+expect-needed: libc.so.6

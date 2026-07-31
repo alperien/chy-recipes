@@ -1,0 +1,4 @@
+#!/bin/sh -e
+make
+install -Dm755 symlinks "$1$CHY_ROOT/usr/bin/symlinks"
+install -Dm644 symlinks.8 "$1$CHY_ROOT/usr/share/man/man8/symlinks.8"

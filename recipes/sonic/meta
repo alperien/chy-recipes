@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/sonic/template
+void-commit: 6264cf179a
+pkgver: sonic-0.2.0_1
+style: gnu-makefile
+expect-needed: libc.so.6
+expect-needed: libsonic.so.0

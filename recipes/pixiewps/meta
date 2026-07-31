@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/pixiewps/template
+void-commit: 9389e6818c
+pkgver: pixiewps-1.4.2_1
+style: gnu-makefile
+expect-needed: libc.so.6
+expect-needed: libpthread.so.0

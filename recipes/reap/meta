@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/reap/template
+void-commit: 080f936bc8
+pkgver: reap-0.2_1
+style: gnu-makefile
+expect-needed: libc.so.6

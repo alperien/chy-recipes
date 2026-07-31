@@ -1,0 +1,5 @@
+origin: translated
+template: srcpkgs/s6-linux-init-man-pages/template
+void-commit: dd7fcca76c9
+pkgver: s6-linux-init-man-pages-1.1.2.1.1_1
+style: gnu-makefile

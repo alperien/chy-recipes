@@ -1,0 +1,7 @@
+#!/bin/sh -e
+export CPPFLAGS="${CPPFLAGS:+$CPPFLAGS }-DHAS_ISBLANK"
+sed -i '/maketab/{s/HOSTCC/BUILD_CC/;s/CFLAGS/BUILD_CFLAGS/}' makefile
+sed -i 's/-lm/$(LDFLAGS) &/' makefile
+make
+install -Dm755 a.out "$1$CHY_ROOT/usr/bin/nawk"
+install -Dm644 awk.1 "$1$CHY_ROOT/usr/share/man/man1/nawk.1"

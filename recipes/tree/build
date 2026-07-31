@@ -1,0 +1,3 @@
+#!/bin/sh -e
+make
+make MANDIR="$1$CHY_ROOT/usr/share/man" DESTDIR="$1$CHY_ROOT/usr/bin" install

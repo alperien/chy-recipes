@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/u9fs/template
+void-commit: 1fa8b42221
+pkgver: u9fs-20210124_1
+style: gnu-makefile
+dropped: vlicense in do_install
+expect-needed: libc.so.6

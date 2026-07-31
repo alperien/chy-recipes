@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/opencore-amr/template
+void-commit: d7a53eb6c44
+pkgver: opencore-amr-0.1.6_1
+style: gnu-configure
+expect-needed: libc.so.6

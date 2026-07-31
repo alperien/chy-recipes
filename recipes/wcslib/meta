@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/wcslib/template
+void-commit: bf1af41fdfc
+pkgver: wcslib-8.4_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libm.so.6

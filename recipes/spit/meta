@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/spit/template
+void-commit: 2c971a6ee16
+pkgver: spit-0.1_1
+style: gnu-makefile
+expect-needed: libc.so.6

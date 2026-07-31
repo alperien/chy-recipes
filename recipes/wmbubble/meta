@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/wmbubble/template
+void-commit: d1ffbe13b3
+pkgver: wmbubble-1.54_1
+style: gnu-makefile
+expect-needed: libX11.so.6
+expect-needed: libc.so.6
+expect-needed: libm.so.6

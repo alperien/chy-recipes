@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/which/template
+void-commit: 3d7fd03b578
+pkgver: which-2.23_1
+style: gnu-configure
+expect-needed: libc.so.6

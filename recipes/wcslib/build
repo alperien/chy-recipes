@@ -1,0 +1,12 @@
+#!/bin/sh -e
+./configure \
+    --prefix="$CHY_PREFIX" \
+    --sysconfdir="$CHY_ROOT/etc" \
+    --disable-flex \
+    --without-pgplot \
+    --with-cfitsioinc="$CHY_ROOT/usr/include" \
+    --with-cfitsiolib="$CHY_ROOT/usr/lib" \
+    ac_cv_file__usr_include_fitsio_h=yes \
+    ac_cv_file__usr_lib=yes
+make
+make DESTDIR="$1" install

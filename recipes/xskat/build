@@ -1,0 +1,6 @@
+#!/bin/sh -e
+export LDFLAGS="${LDFLAGS:+$LDFLAGS }-lX11"
+make
+sed -n '/xscat.*a card game/,/ z .*suffix/p' cards.c LICENSE
+install -Dm755 xskat "$1$CHY_ROOT/usr/bin/xskat"
+install -Dm644 xskat.man "$1$CHY_ROOT/usr/share/man/man6/xskat.6"

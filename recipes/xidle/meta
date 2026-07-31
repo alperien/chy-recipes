@@ -1,0 +1,10 @@
+origin: translated
+template: srcpkgs/xidle/template
+void-commit: e0b95f0375
+pkgver: xidle-6.5_1
+style: gnu-makefile
+dropped: vlicense in pre_build
+expect-needed: libX11.so.6
+expect-needed: libXss.so.1
+expect-needed: libbsd.so.0
+expect-needed: libc.so.6

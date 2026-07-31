@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/splint/template
+void-commit: 13bb9d0b23
+pkgver: splint-3.1.2_5
+style: gnu-configure
+expect-needed: libc.so.6

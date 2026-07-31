@@ -1,0 +1,5 @@
+#!/bin/sh -e
+export CFLAGS="${CFLAGS:+$CFLAGS }-fPIC"
+make
+make PREFIX="$CHY_PREFIX" DESTDIR="$1" install
+install -Dm644 sonic.1 "$1$CHY_ROOT/usr/share/man/man1/sonic.1"

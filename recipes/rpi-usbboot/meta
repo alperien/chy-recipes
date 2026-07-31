@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/rpi-usbboot/template
+void-commit: 9035d45b31f
+pkgver: rpi-usbboot-20221215.105525_1
+style: gnu-makefile
+expect-needed: libc.so.6
+expect-needed: libusb-1.0.so.0

@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/rankwidth/template
+void-commit: 66e32f4bf50
+pkgver: rankwidth-0.10_1
+style: gnu-configure
+expect-needed: libc.so.6

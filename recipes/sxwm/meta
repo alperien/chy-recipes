@@ -1,0 +1,10 @@
+origin: translated
+template: srcpkgs/sxwm/template
+void-commit: cde0bd6a7279
+pkgver: sxwm-1.7_1
+style: gnu-makefile
+dropped: vlicense in post_install
+expect-needed: libX11.so.6
+expect-needed: libXcursor.so.1
+expect-needed: libXinerama.so.1
+expect-needed: libc.so.6

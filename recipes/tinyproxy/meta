@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/tinyproxy/template
+void-commit: 028d57540596
+pkgver: tinyproxy-1.11.3_1
+style: gnu-configure
+dropped: conf_files
+dropped: system_accounts
+dropped: vsv in post_install
+expect-needed: libc.so.6

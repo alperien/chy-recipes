@@ -1,0 +1,11 @@
+origin: translated
+template: srcpkgs/the_silver_searcher/template
+void-commit: f0bb749a25
+pkgver: the_silver_searcher-2.2.0_1
+style: gnu-configure
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: liblzma.so.5
+expect-needed: libpcre.so.1
+expect-needed: libpthread.so.0
+expect-needed: libz.so.1

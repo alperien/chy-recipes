@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/pv/template
+void-commit: ff8e84ae737
+pkgver: pv-1.11.0_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libm.so.6

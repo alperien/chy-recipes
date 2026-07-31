@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/necho/template
+void-commit: 893b719be9
+pkgver: necho-0.1_2
+style: gnu-makefile
+expect-needed: libc.so.6

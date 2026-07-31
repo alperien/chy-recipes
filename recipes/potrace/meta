@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/potrace/template
+void-commit: d1b72a8c8e
+pkgver: potrace-1.16_2
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libm.so.6
+expect-needed: libpotrace.so.0
+expect-needed: libz.so.1

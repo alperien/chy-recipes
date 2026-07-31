@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/parprouted/template
+void-commit: dcd80637f9
+pkgver: parprouted-0.7_1
+style: gnu-makefile
+expect-needed: libc.so.6
+expect-needed: libpthread.so.0

@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/tree/template
+void-commit: 5c746e06418
+pkgver: tree-2.2.1_1
+style: gnu-makefile
+expect-needed: libc.so.6

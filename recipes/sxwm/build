@@ -1,0 +1,6 @@
+#!/bin/sh -e
+export LDFLAGS="${LDFLAGS:+$LDFLAGS }-lX11 -lXinerama -lXcursor"
+make
+make PREFIX="$CHY_PREFIX" DESTDIR="$1" install
+install -Dm644 default_sxwmrc "$1$CHY_ROOT/usr/share/examples/sxwm/sxwmrc"
+rm -rf "$1$CHY_ROOT/tmp"

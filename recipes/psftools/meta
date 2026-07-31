@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/psftools/template
+void-commit: 750963f96e
+pkgver: psftools-1.0.14_1
+style: gnu-configure
+expect-needed: libc.so.6

@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/pdpmake/template
+void-commit: 0ee2946121db
+pkgver: pdpmake-2.0.4_1
+style: gnu-makefile
+expect-needed: libc.so.6

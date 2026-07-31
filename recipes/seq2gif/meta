@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/seq2gif/template
+void-commit: 13bb9d0b23
+pkgver: seq2gif-0.10.4_3
+style: gnu-configure
+expect-needed: libc.so.6

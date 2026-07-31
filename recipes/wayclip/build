@@ -1,0 +1,5 @@
+#!/bin/sh -e
+make
+make PREFIX="$CHY_PREFIX" DESTDIR="$1" install
+install -Dm644 waycopy.1 "$1$CHY_ROOT/usr/share/man/man1/waycopy.1"
+install -Dm644 waypaste.1 "$1$CHY_ROOT/usr/share/man/man1/waypaste.1"

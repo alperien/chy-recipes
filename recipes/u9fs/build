@@ -1,0 +1,5 @@
+#!/bin/sh -e
+make
+install -Dm755 u9fs "$1$CHY_ROOT/usr/bin/u9fs"
+mv u9fs.man u9fs.8
+install -Dm644 u9fs.8 "$1$CHY_ROOT/usr/share/man/man8/u9fs.8"

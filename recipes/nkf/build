@@ -1,0 +1,7 @@
+#!/bin/sh -e
+make
+mkdir -p "$1$CHY_ROOT/usr/share"
+sed -i 's|$(prefix)/man|$(prefix)/share/man|g' Makefile
+make PREFIX="$CHY_PREFIX" DESTDIR="$1" \
+    prefix="$1$CHY_ROOT/usr" \
+    install

@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/scooper/template
+void-commit: 053910a99f
+pkgver: scooper-1.3_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libdl.so.2
+expect-needed: libm.so.6
+expect-needed: libz.so.1

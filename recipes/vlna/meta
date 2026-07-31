@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/vlna/template
+void-commit: 625fb258f5
+pkgver: vlna-1.5_1
+style: gnu-configure
+expect-needed: libc.so.6

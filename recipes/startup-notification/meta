@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/startup-notification/template
+void-commit: 13bb9d0b23
+pkgver: startup-notification-0.12_11
+style: gnu-configure
+expect-needed: libX11-xcb.so.1
+expect-needed: libc.so.6
+expect-needed: libxcb-util.so.1
+expect-needed: libxcb.so.1

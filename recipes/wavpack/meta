@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/wavpack/template
+void-commit: abdd25ac0d93
+pkgver: wavpack-5.9.0_1
+style: gnu-configure
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libm.so.6
+expect-needed: libwavpack.so.1

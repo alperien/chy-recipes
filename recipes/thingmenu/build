@@ -1,0 +1,9 @@
+#!/bin/sh -e
+sed -i 's|^CPPFLAGS *=|override CPPFLAGS +=|g' config.mk
+sed -i 's|^CFLAGS *=|override CFLAGS +=|g' config.mk
+sed -i 's|^LDFLAGS *=|override LDFLAGS +=|g' config.mk
+make \
+    INCS=-I. \
+    LIBS=-lX11
+make PREFIX="$CHY_PREFIX" DESTDIR="$1" install
+install -Dm755 thingmenu-menu.sh "$1$CHY_ROOT/usr/bin/thingmenu-menu.sh"

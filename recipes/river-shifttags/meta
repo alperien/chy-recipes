@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/river-shifttags/template
+void-commit: 3a6edd411cc
+pkgver: river-shifttags-0.2.2_1
+style: gnu-makefile
+expect-needed: libc.so.6
+expect-needed: libwayland-client.so.0

@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/xe/template
+void-commit: 644552f0b9
+pkgver: xe-1.0_1
+style: gnu-makefile
+expect-needed: libc.so.6

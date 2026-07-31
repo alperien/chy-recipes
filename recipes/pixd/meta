@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/pixd/template
+void-commit: 98ccf59960
+pkgver: pixd-1.0.0_1
+style: gnu-makefile
+dropped: vlicense in post_install
+expect-needed: libc.so.6

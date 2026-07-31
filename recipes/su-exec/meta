@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/su-exec/template
+void-commit: 131f84b1537
+pkgver: su-exec-0.3_1
+style: gnu-makefile
+dropped: vlicense in do_install
+expect-needed: libc.so.6

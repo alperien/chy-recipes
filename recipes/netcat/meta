@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/netcat/template
+void-commit: a307d21053
+pkgver: netcat-0.7.1_7
+style: gnu-configure
+expect-needed: libc.so.6

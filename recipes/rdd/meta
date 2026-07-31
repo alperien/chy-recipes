@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/rdd/template
+void-commit: 893b719be9
+pkgver: rdd-0.9_2
+style: gnu-makefile
+expect-needed: libc.so.6

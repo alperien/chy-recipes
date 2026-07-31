@@ -1,0 +1,5 @@
+origin: translated
+template: srcpkgs/xfwm4-themes/template
+void-commit: 6666dbd3e5
+pkgver: xfwm4-themes-4.10.0_4
+style: gnu-configure

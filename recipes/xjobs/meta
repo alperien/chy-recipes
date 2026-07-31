@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/xjobs/template
+void-commit: fea44d79974
+pkgver: xjobs-20250529_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libm.so.6

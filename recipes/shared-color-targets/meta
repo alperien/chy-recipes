@@ -1,0 +1,5 @@
+origin: translated
+template: srcpkgs/shared-color-targets/template
+void-commit: 97b3fad7e0
+pkgver: shared-color-targets-0.1.7_3
+style: gnu-configure

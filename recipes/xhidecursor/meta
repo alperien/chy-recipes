@@ -1,0 +1,10 @@
+origin: translated
+template: srcpkgs/xhidecursor/template
+void-commit: 6f862cf5ae03
+pkgver: xhidecursor-1.0.0_1
+style: gnu-makefile
+dropped: vlicense in post_install
+expect-needed: libX11.so.6
+expect-needed: libXfixes.so.3
+expect-needed: libXi.so.6
+expect-needed: libc.so.6

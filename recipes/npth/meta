@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/npth/template
+void-commit: 4490bea0c2e
+pkgver: npth-1.8_1
+style: gnu-configure
+expect-needed: libc.so.6

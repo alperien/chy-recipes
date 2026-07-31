@@ -1,0 +1,5 @@
+#!/bin/sh -e
+export CFLAGS="${CFLAGS:+$CFLAGS }-std=gnu99 -D_GNU_SOURCE -DNK_USE_CAPABILITY"
+make
+install -Dm755 ndhc "$1$CHY_ROOT/usr/bin/ndhc"
+install -Dm644 ndhc.8 "$1$CHY_ROOT/usr/share/man/man8/ndhc.8"

@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/wcal/template
+void-commit: c4af571583
+pkgver: wcal-0.1_1
+style: gnu-makefile
+expect-needed: libc.so.6

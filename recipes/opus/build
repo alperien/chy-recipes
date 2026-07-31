@@ -1,0 +1,11 @@
+#!/bin/sh -e
+./configure \
+    --prefix="$CHY_PREFIX" \
+    --sysconfdir="$CHY_ROOT/etc" \
+    --enable-dred \
+    --enable-osce \
+    --enable-custom-modes \
+    --enable-opus-custom-api \
+    --disable-qext
+make
+make DESTDIR="$1" install

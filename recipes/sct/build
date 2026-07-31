@@ -1,0 +1,6 @@
+#!/bin/sh -e
+make
+install -Dm755 sct "$1$CHY_ROOT/usr/bin/sct"
+install -Dm644 sct.1 "$1$CHY_ROOT/usr/share/man/man1/sct.1"
+install -Dm755 sctd.sh "$1$CHY_ROOT/usr/bin/sctd"
+install -Dm644 sctd.1 "$1$CHY_ROOT/usr/share/man/man1/sctd.1"

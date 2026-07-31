@@ -1,0 +1,5 @@
+libXcomposite
+libXdamage
+libXext
+libXrender
+pkg-config

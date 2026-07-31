@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/s6-networking-man-pages/template
+void-commit: 33782826a57
+pkgver: s6-networking-man-pages-2.7.0.4.1_1
+style: gnu-makefile
+dropped: vlicense in post_install

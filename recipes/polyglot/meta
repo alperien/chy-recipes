@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/polyglot/template
+void-commit: d1b72a8c8e
+pkgver: polyglot-2.0.4_2
+style: gnu-configure
+expect-needed: libc.so.6

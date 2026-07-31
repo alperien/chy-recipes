@@ -1,0 +1,10 @@
+origin: translated
+template: srcpkgs/ocaml/template
+void-commit: 2eca496f8dd
+pkgver: ocaml-5.3.0_1
+style: gnu-configure
+dropped: vlicense in post_install
+expect-needed: ld-linux-x86-64.so.2
+expect-needed: libc.so.6
+expect-needed: libm.so.6
+expect-needed: libzstd.so.1

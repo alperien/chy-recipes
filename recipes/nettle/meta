@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/nettle/template
+void-commit: 34cc8749b59
+pkgver: nettle-3.10.2_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libgmp.so.10

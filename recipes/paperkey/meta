@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/paperkey/template
+void-commit: d1b72a8c8e
+pkgver: paperkey-1.6_2
+style: gnu-configure
+expect-needed: libc.so.6

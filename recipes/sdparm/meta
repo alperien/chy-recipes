@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/sdparm/template
+void-commit: 828a4d67bf
+pkgver: sdparm-1.12_1
+style: gnu-configure
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libsgutils2-1.45.so.2

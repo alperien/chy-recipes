@@ -1,0 +1,9 @@
+#!/bin/sh -e
+./configure \
+    --prefix="$CHY_PREFIX" \
+    --sysconfdir="$CHY_ROOT/etc" \
+    --disable-static \
+    lf_cv_sane_realloc=yes \
+    lf_cv_sane_malloc=yes
+make
+make DESTDIR="$1" install

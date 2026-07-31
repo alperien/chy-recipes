@@ -1,0 +1,5 @@
+libxcb
+m4
+pkg-config
+python3
+xcb-proto

@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/proxychains-ng/template
+void-commit: a157e3245d9
+pkgver: proxychains-ng-4.17_1
+style: gnu-configure
+dropped: conf_files
+expect-needed: libc.so.6

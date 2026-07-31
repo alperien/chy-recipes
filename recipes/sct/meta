@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/sct/template
+void-commit: 29821d7e14
+pkgver: sct-0.5_1
+style: gnu-makefile
+expect-needed: libX11.so.6
+expect-needed: libXrandr.so.2
+expect-needed: libc.so.6

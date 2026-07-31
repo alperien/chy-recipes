@@ -1,0 +1,8 @@
+#!/bin/sh -e
+export CFLAGS="${CFLAGS:+$CFLAGS }-D_GNU_SOURCE"
+./configure \
+    --prefix="$CHY_PREFIX" \
+    --sysconfdir="$CHY_ROOT/etc" \
+    ac_cv_func_wait3_rusage=yes
+make
+make DESTDIR="$1" install

@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/symlinks/template
+void-commit: f6f2bab290
+pkgver: symlinks-1.4.3_1
+style: gnu-makefile
+dropped: vlicense in do_install
+expect-needed: libc.so.6

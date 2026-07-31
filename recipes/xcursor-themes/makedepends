@@ -1,0 +1,5 @@
+libXcursor
+libXrender
+pkg-config
+xcursorgen
+xorg-util-macros

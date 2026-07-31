@@ -1,0 +1,5 @@
+#!/bin/sh -e
+make
+install -Dm755 peg "$1$CHY_ROOT/usr/bin/peg"
+install -Dm755 leg "$1$CHY_ROOT/usr/bin/leg"
+install -Dm644 src/peg.1 "$1$CHY_ROOT/usr/share/man/man1/peg.1"

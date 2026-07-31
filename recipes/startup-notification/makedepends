@@ -1,0 +1,4 @@
+libSM
+libX11
+pkg-config
+xcb-util
