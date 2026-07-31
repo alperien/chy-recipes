@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/dosfstools/template
+void-commit: babae5ae02
+pkgver: dosfstools-4.2_1
+style: gnu-configure
+expect-needed: libc.so.6

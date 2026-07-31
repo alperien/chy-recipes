@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/check/template
+void-commit: b021c76796
+pkgver: check-0.15.2_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libm.so.6
+expect-needed: libpthread.so.0
+expect-needed: librt.so.1

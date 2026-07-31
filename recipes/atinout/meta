@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/atinout/template
+void-commit: ec248fbe33
+pkgver: atinout-0.9.1_1
+style: gnu-makefile
+expect-needed: libc.so.6

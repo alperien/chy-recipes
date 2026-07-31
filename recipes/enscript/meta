@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/enscript/template
+void-commit: 88c673bab4
+pkgver: enscript-1.6.6_4
+style: gnu-configure
+dropped: conf_files
+expect-needed: libc.so.6
+expect-needed: libm.so.6

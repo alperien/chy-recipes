@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/bzip3/template
+void-commit: eb90b9b88bc
+pkgver: bzip3-1.5.3_1
+style: gnu-configure
+expect-needed: libc.so.6

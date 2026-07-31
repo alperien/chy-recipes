@@ -1,0 +1,4 @@
+#!/bin/sh -e
+make
+install -Dm755 ioping "$1$CHY_ROOT/usr/bin/ioping"
+install -Dm644 ioping.1 "$1$CHY_ROOT/usr/share/man/man1/ioping.1"

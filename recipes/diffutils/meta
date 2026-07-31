@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/diffutils/template
+void-commit: 6eab0a69608
+pkgver: diffutils-3.12_1
+style: gnu-configure
+dropped: check phase pre_check
+expect-needed: libc.so.6

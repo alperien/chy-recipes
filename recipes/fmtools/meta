@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/fmtools/template
+void-commit: c0c26f71448
+pkgver: fmtools-2.0.7_1
+style: gnu-configure
+expect-needed: libc.so.6

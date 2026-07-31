@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/fcount/template
+void-commit: e91fd5e
+pkgver: fcount-0.3_2
+style: gnu-makefile
+dropped: vlicense in post_install
+expect-needed: libc.so.6

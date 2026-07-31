@@ -1,0 +1,5 @@
+#!/bin/sh -e
+sed -i 's|-Wall|-Wall $(CFLAGS) $(LDFLAGS)|g' Makefile
+make
+install -Dm755 dnstracer "$1$CHY_ROOT/usr/bin/dnstracer"
+install -Dm644 dnstracer.8 "$1$CHY_ROOT/usr/share/man/man8/dnstracer.8"

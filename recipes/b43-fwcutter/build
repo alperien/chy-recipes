@@ -1,0 +1,4 @@
+#!/bin/sh -e
+make
+install -Dm755 b43-fwcutter "$1$CHY_ROOT/usr/bin/b43-fwcutter"
+install -Dm644 b43-fwcutter.1 "$1$CHY_ROOT/usr/share/man/man1/b43-fwcutter.1"

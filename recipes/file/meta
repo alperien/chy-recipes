@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/file/template
+void-commit: 13fe20a768f
+pkgver: file-5.46_2
+style: gnu-configure
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libmagic.so.1

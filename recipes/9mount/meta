@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/9mount/template
+void-commit: 66550ed
+pkgver: 9mount-1.3_2
+style: gnu-makefile
+dropped: vlicense in post_install
+expect-needed: libc.so.6

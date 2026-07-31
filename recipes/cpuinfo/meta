@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/cpuinfo/template
+void-commit: 53462064e7
+pkgver: cpuinfo-1.3.0_1
+style: gnu-makefile
+expect-needed: libc.so.6

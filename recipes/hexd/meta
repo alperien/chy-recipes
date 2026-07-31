@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/hexd/template
+void-commit: 62a45f4c62
+pkgver: hexd-1.1.0_1
+style: gnu-makefile
+dropped: vlicense in post_install
+expect-needed: libc.so.6

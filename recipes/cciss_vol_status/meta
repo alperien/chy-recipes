@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/cciss_vol_status/template
+void-commit: 9e148d6e99
+pkgver: cciss_vol_status-1.12a_1
+style: gnu-configure
+expect-needed: libc.so.6

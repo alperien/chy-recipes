@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/bootchart/template
+void-commit: 2a8fa3d17a
+pkgver: bootchart-1.20_4
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: librt.so.1

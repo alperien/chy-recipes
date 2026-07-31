@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/filter_audio/template
+void-commit: 88ca5ecde6
+pkgver: filter_audio-0.0.1_5
+style: gnu-makefile
+expect-needed: libc.so.6

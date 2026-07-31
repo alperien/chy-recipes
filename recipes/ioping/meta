@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/ioping/template
+void-commit: a5b9069612
+pkgver: ioping-1.3_1
+style: gnu-makefile
+expect-needed: libc.so.6
+expect-needed: libm.so.6

@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/cmdpack/template
+void-commit: 2f7e511671
+pkgver: cmdpack-1.06_1
+style: gnu-makefile
+expect-needed: libc.so.6

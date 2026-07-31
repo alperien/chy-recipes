@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/jhead/template
+void-commit: 1e0755189ecd
+pkgver: jhead-3.08_1
+style: gnu-makefile
+expect-needed: libc.so.6
+expect-needed: libm.so.6

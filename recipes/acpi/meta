@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/acpi/template
+void-commit: 5f0335b920c
+pkgver: acpi-1.8_1
+style: gnu-configure
+expect-needed: libc.so.6

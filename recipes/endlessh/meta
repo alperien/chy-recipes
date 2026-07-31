@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/endlessh/template
+void-commit: d09cff62a7
+pkgver: endlessh-1.1_1
+style: gnu-makefile
+expect-needed: libc.so.6

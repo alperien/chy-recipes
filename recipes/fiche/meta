@@ -1,0 +1,10 @@
+origin: translated
+template: srcpkgs/fiche/template
+void-commit: 08109a8520
+pkgver: fiche-0.9.1_2
+style: gnu-makefile
+dropped: system_accounts
+dropped: vlicense in post_install
+dropped: vsv in post_install
+expect-needed: libc.so.6
+expect-needed: libpthread.so.0

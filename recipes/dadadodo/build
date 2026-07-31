@@ -1,0 +1,4 @@
+#!/bin/sh -e
+make
+sed 11q dadadodo.c LICENSE
+install -Dm755 dadadodo "$1$CHY_ROOT/usr/bin/dadadodo"

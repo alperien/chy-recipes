@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/fex/template
+void-commit: a5bac1de0d
+pkgver: fex-2.0.0_1
+style: gnu-makefile
+expect-needed: libc.so.6

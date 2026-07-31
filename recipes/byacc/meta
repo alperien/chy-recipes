@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/byacc/template
+void-commit: dd691cc0a64
+pkgver: byacc-20260126_1
+style: gnu-configure
+dropped: vlicense in post_install
+expect-needed: libc.so.6

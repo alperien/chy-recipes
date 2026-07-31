@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/ell/template
+void-commit: 557021d251
+pkgver: ell-0.50_1
+style: gnu-configure
+dropped: check phase do_check
+expect-needed: libc.so.6

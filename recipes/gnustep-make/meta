@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/gnustep-make/template
+void-commit: 118d3a8530e
+pkgver: gnustep-make-2.9.2_1
+style: gnu-configure
+dropped: conf_files

@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/dumb-init/template
+void-commit: ab6b90e896
+pkgver: dumb-init-1.2.5_1
+style: gnu-makefile
+dropped: vlicense in do_install
+expect-needed: libc.so.6

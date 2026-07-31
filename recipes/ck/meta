@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/ck/template
+void-commit: e8893308cd
+pkgver: ck-0.7.0_1
+style: configure
+dropped: vlicense in post_install
+expect-needed: libc.so.6

@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/fail/template
+void-commit: 495eba616c
+pkgver: fail-0.4_1
+style: gnu-makefile
+expect-needed: libc.so.6

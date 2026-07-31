@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/fribidi/template
+void-commit: 53ce7203fd0
+pkgver: fribidi-1.0.16_1
+style: gnu-configure
+dropped: cross-build block in pre_build
+expect-needed: libc.so.6

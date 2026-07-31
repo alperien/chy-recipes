@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/gputils/template
+void-commit: 65c3c57e2a
+pkgver: gputils-1.5.0.1_1
+style: gnu-configure
+expect-needed: libc.so.6

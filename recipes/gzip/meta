@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/gzip/template
+void-commit: 81124a8acda
+pkgver: gzip-1.14_1
+style: gnu-configure
+dropped: check phase pre_check
+expect-needed: libc.so.6

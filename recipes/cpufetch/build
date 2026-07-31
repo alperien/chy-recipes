@@ -1,0 +1,4 @@
+#!/bin/sh -e
+make arch=x86_64
+install -Dm755 cpufetch "$1$CHY_ROOT/usr/bin/cpufetch"
+install -Dm644 cpufetch.1 "$1$CHY_ROOT/usr/share/man/man1/cpufetch.1"

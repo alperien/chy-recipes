@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/iucode-tool/template
+void-commit: 3771c3d8c8
+pkgver: iucode-tool-2.3.1_2
+style: gnu-configure
+expect-needed: libc.so.6

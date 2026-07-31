@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/input-utils/template
+void-commit: 70f7fe80b4
+pkgver: input-utils-1.3_2
+style: gnu-makefile
+expect-needed: libc.so.6

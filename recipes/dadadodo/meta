@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/dadadodo/template
+void-commit: 9913a69ae4
+pkgver: dadadodo-1.04_1
+style: gnu-makefile
+dropped: vlicense in do_install
+expect-needed: libc.so.6

@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/iat/template
+void-commit: 90243383a3
+pkgver: iat-0.1.7_4
+style: gnu-configure
+dropped: vlicense in post_install
+expect-needed: libc.so.6

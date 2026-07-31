@@ -1,0 +1,4 @@
+#!/bin/sh -e
+make
+install -Dm755 dxa "$1$CHY_ROOT/usr/bin/dxa"
+install -Dm644 dxa.1 "$1$CHY_ROOT/usr/share/man/man1/dxa.1"

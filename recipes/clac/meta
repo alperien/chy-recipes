@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/clac/template
+void-commit: 6a0760d76b9
+pkgver: clac-0.3.5_1
+style: gnu-makefile
+dropped: vlicense in do_install
+expect-needed: libc.so.6
+expect-needed: libm.so.6

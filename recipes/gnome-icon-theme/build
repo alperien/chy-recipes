@@ -1,0 +1,8 @@
+#!/bin/sh -e
+./configure \
+    --prefix="$CHY_PREFIX" \
+    --sysconfdir="$CHY_ROOT/etc" \
+    --enable-icon-mapping
+make
+make DESTDIR="$1" install
+rm -f "$1$CHY_ROOT/usr/share/icons/gnome/icon-theme.cache"

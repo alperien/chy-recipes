@@ -1,0 +1,8 @@
+#!/bin/sh -e
+./configure \
+    --prefix="$CHY_PREFIX" \
+    --sysconfdir="$CHY_ROOT/etc"
+make
+make DESTDIR="$1" install
+rm "$1$CHY_ROOT/usr/bin/last"
+rm "$1$CHY_ROOT/usr/share/man/man1/last.1"

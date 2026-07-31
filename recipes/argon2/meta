@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/argon2/template
+void-commit: 03bee9decc
+pkgver: argon2-20190702_3
+style: gnu-makefile
+expect-needed: libc.so.6
+expect-needed: libpthread.so.0

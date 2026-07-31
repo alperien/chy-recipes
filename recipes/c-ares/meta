@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/c-ares/template
+void-commit: 7ad1a99f000
+pkgver: c-ares-1.34.8_1
+style: gnu-configure
+dropped: vlicense in post_install
+expect-needed: libc.so.6

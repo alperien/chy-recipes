@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/aha/template
+void-commit: 20c03eafa5
+pkgver: aha-0.5.1_1
+style: gnu-makefile
+expect-needed: libc.so.6

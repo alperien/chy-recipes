@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/cpio/template
+void-commit: cf8026d18dd
+pkgver: cpio-2.15_1
+style: gnu-configure
+expect-needed: libc.so.6

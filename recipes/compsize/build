@@ -1,0 +1,4 @@
+#!/bin/sh -e
+make
+install -Dm755 compsize "$1$CHY_ROOT/usr/bin/compsize"
+install -Dm644 compsize.8 "$1$CHY_ROOT/usr/share/man/man8/compsize.8"

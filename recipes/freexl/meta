@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/freexl/template
+void-commit: 5586d0f72e6
+pkgver: freexl-2.0.0_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libm.so.6

@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/bbe/template
+void-commit: 64756bfc27
+pkgver: bbe-0.2.2_1
+style: gnu-configure
+expect-needed: libc.so.6

@@ -1,0 +1,9 @@
+#!/bin/sh -e
+./configure \
+    --prefix="$CHY_PREFIX" \
+    --sysconfdir="$CHY_ROOT/etc"
+make
+install -Dm755 aggregate "$1$CHY_ROOT/usr/bin/aggregate"
+install -Dm644 aggregate.1 "$1$CHY_ROOT/usr/share/man/man1/aggregate.1"
+install -Dm755 aggregate-ios "$1$CHY_ROOT/usr/bin/aggregate-ios"
+install -Dm644 aggregate-ios.1 "$1$CHY_ROOT/usr/share/man/man1/aggregate-ios.1"

@@ -1,0 +1,5 @@
+#!/bin/sh -e
+make
+mkdir -p "$1$CHY_ROOT/usr/bin"
+install -Dm644 jhead.1 "$1$CHY_ROOT/usr/share/man/man1/jhead.1"
+make PREFIX="$CHY_PREFIX" DESTDIR="$1" install

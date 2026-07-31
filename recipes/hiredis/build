@@ -1,0 +1,5 @@
+#!/bin/sh -e
+make \
+    OPTIMIZATION= \
+    USE_WERROR=0
+make PREFIX="$CHY_PREFIX" DESTDIR="$1" install

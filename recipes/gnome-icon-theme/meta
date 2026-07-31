@@ -1,0 +1,5 @@
+origin: translated
+template: srcpkgs/gnome-icon-theme/template
+void-commit: dab38c85ea
+pkgver: gnome-icon-theme-3.12.0_3
+style: gnu-configure

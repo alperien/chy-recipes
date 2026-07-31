@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/jansson/template
+void-commit: 22ad157147e
+pkgver: jansson-2.15.0_1
+style: gnu-configure
+dropped: vlicense in post_install
+expect-needed: libc.so.6

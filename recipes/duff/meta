@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/duff/template
+void-commit: 2a8fa3d17a
+pkgver: duff-0.5.2_2
+style: gnu-configure
+expect-needed: libc.so.6

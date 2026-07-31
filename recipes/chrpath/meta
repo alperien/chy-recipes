@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/chrpath/template
+void-commit: 3b9cd990c9
+pkgver: chrpath-0.16_3
+style: gnu-configure
+expect-needed: libc.so.6

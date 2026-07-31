@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/can-utils/template
+void-commit: 34dd137fdb
+pkgver: can-utils-2021.08.0_1
+style: gnu-makefile
+expect-needed: libc.so.6

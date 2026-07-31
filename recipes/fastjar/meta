@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/fastjar/template
+void-commit: 8a02741726
+pkgver: fastjar-0.98_3
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libz.so.1

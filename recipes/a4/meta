@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/a4/template
+void-commit: a6a3c388f16
+pkgver: a4-1.0.1_1
+style: gnu-makefile
+dropped: vlicense in post_install
+expect-needed: libc.so.6

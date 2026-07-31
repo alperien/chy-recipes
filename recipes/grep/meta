@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/grep/template
+void-commit: 802fcb676cf
+pkgver: grep-3.12_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libpcre2-8.so.0

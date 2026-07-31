@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/asio/template
+void-commit: c1de3dac4d4
+pkgver: asio-1.36.0_1
+style: gnu-configure
+dropped: vlicense in post_install

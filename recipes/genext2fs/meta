@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/genext2fs/template
+void-commit: 6a00170a7d
+pkgver: genext2fs-1.4.1_3
+style: gnu-configure
+expect-needed: libc.so.6

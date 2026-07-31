@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/diction/template
+void-commit: 96a1b8f18d
+pkgver: diction-1.11_2
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libm.so.6

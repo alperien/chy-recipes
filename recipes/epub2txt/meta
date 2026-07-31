@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/epub2txt/template
+void-commit: 5993bfc7efe
+pkgver: epub2txt-2.08_1
+style: gnu-makefile
+expect-needed: libc.so.6

@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/Haru/template
+void-commit: 1d96279e66
+pkgver: Haru-2.3.0_3
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libm.so.6
+expect-needed: libpng16.so.16
+expect-needed: libz.so.1

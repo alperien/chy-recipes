@@ -1,0 +1,5 @@
+origin: translated
+template: srcpkgs/acr/template
+void-commit: 3dfa14968b6
+pkgver: acr-2.2.6_1
+style: gnu-configure

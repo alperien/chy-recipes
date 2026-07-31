@@ -1,0 +1,5 @@
+origin: translated
+template: srcpkgs/iscan-data/template
+void-commit: 4bba972abd
+pkgver: iscan-data-1.39.2_1
+style: gnu-configure

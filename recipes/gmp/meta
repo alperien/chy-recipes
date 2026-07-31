@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/gmp/template
+void-commit: 0bb1eedd2c
+pkgver: gmp-6.3.0_1
+style: gnu-configure
+expect-needed: libc.so.6

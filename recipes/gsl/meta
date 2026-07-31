@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/gsl/template
+void-commit: c8b116c72da
+pkgver: gsl-2.8_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libm.so.6

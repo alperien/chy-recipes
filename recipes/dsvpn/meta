@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/dsvpn/template
+void-commit: d9b7e115c0
+pkgver: dsvpn-0.1.4_1
+style: gnu-makefile
+dropped: vlicense in do_install
+expect-needed: libc.so.6

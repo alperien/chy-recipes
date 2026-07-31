@@ -1,0 +1,5 @@
+gtk+3
+icon-naming-utils
+intltool
+librsvg
+pkg-config

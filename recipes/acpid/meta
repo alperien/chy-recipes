@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/acpid/template
+void-commit: db3791bdf68
+pkgver: acpid-2.0.34_4
+style: gnu-configure
+dropped: conf_files
+dropped: vsv in post_install
+expect-needed: libc.so.6

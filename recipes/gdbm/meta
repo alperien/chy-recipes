@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/gdbm/template
+void-commit: cde0bd6a7279
+pkgver: gdbm-1.26_1
+style: gnu-configure
+expect-needed: ld-linux-x86-64.so.2
+expect-needed: libc.so.6

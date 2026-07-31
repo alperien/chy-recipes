@@ -1,0 +1,4 @@
+#!/bin/sh -e
+make
+install -Dm755 clac "$1$CHY_ROOT/usr/bin/clac"
+install -Dm644 clac.1 "$1$CHY_ROOT/usr/share/man/man1/clac.1"

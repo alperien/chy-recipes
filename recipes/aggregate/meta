@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/aggregate/template
+void-commit: c59c0ef702
+pkgver: aggregate-1.6_1
+style: gnu-configure
+dropped: vlicense in do_install
+expect-needed: libc.so.6

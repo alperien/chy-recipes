@@ -1,0 +1,12 @@
+#!/bin/sh -e
+./configure \
+    --prefix="$CHY_PREFIX" \
+    --sysconfdir="$CHY_ROOT/etc" \
+    --enable-libgdbm-compat \
+    --disable-rpath
+make
+make DESTDIR="$1" install
+mkdir -p "$1$CHY_ROOT/usr/include/gdbm"
+ln -sf ../gdbm.h "$1$CHY_ROOT/usr/include/gdbm/gdbm.h"
+ln -sf ../ndbm.h "$1$CHY_ROOT/usr/include/gdbm/ndbm.h"
+ln -sf ../dbm.h "$1$CHY_ROOT/usr/include/gdbm/dbm.h"

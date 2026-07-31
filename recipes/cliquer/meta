@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/cliquer/template
+void-commit: 625df4a38a1
+pkgver: cliquer-1.23_1
+style: gnu-configure
+expect-needed: libc.so.6

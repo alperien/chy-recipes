@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/hdapsd/template
+void-commit: 53d9363523
+pkgver: hdapsd-20141024_4
+style: gnu-configure
+expect-needed: libc.so.6

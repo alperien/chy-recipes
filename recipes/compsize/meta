@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/compsize/template
+void-commit: 8bda5ef048
+pkgver: compsize-1.5_1
+style: gnu-makefile
+expect-needed: libc.so.6

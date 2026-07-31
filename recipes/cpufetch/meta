@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/cpufetch/template
+void-commit: 7a85627e6249
+pkgver: cpufetch-1.07_1
+style: gnu-makefile
+expect-needed: libc.so.6

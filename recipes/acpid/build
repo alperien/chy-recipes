@@ -1,0 +1,8 @@
+#!/bin/sh -e
+./configure \
+    --prefix="$CHY_PREFIX" \
+    --sysconfdir="$CHY_ROOT/etc"
+make
+make DESTDIR="$1" install
+install -Dm755 handler.sh "$1$CHY_ROOT/etc/acpi/handler.sh"
+install -Dm644 anything "$1$CHY_ROOT/etc/acpi/events/anything"

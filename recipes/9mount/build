@@ -1,0 +1,6 @@
+#!/bin/sh -e
+sed -i '/chown/d' Makefile
+make
+make PREFIX="$CHY_PREFIX" DESTDIR="$1" \
+    prefix="$1$CHY_ROOT/usr" \
+    install

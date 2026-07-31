@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/icoutils/template
+void-commit: 1fc8beb64d
+pkgver: icoutils-0.32.3_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libpng16.so.16

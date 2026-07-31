@@ -1,0 +1,5 @@
+#!/bin/sh -e
+make library
+mkdir -p "$1$CHY_ROOT/usr/lib/pkgconfig"
+mkdir -p "$1$CHY_ROOT/usr/include"
+make PREFIX="$CHY_PREFIX" DESTDIR="$1" install

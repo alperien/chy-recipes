@@ -1,0 +1,5 @@
+origin: translated
+template: srcpkgs/convmv/template
+void-commit: c76978d829
+pkgver: convmv-2.05_2
+style: gnu-makefile

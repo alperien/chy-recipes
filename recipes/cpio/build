@@ -1,0 +1,8 @@
+#!/bin/sh -e
+export CFLAGS="${CFLAGS:+$CFLAGS }-fcommon"
+./configure \
+    --prefix="$CHY_PREFIX" \
+    --sysconfdir="$CHY_ROOT/etc" \
+    --with-rmt="$CHY_ROOT/usr/bin/rmt"
+make
+make DESTDIR="$1" install

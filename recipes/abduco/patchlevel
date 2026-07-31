@@ -1,0 +1,4 @@
+0 0001-Use-fixed-size-integer-types-in-protocol-messages.patch
+0 0002-Fix-length-of-MSG_RESIZE-packet.patch
+0 0003-Avoid-use-of-BUFSIZ-to-guarantee-system-independent-.patch
+0 0004-Correct-EOF-handling-on-client-stdin.patch

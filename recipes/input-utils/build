@@ -1,0 +1,10 @@
+#!/bin/sh -e
+make
+install -Dm644 lsinput.man "$1$CHY_ROOT/usr/share/man/man8/lsinput.8"
+install -Dm644 input-events.man "$1$CHY_ROOT/usr/share/man/man8/input-events.8"
+install -Dm644 input-kbd.man "$1$CHY_ROOT/usr/share/man/man8/input-kbd.8"
+install -Dm755 lsinput "$1$CHY_ROOT/usr/bin/lsinput"
+install -Dm755 input-events "$1$CHY_ROOT/usr/bin/input-events"
+install -Dm755 input-kbd "$1$CHY_ROOT/usr/bin/input-kbd"
+install -Dm755 input-recv "$1$CHY_ROOT/usr/bin/input-recv"
+install -Dm755 input-send "$1$CHY_ROOT/usr/bin/input-send"

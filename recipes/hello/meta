@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/hello/template
+void-commit: 2f8db0cc011
+pkgver: hello-2.12.3_1
+style: gnu-configure
+expect-needed: libc.so.6

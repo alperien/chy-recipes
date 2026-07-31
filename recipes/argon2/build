@@ -1,0 +1,3 @@
+#!/bin/sh -e
+make OPTTARGET=none
+make PREFIX="$CHY_PREFIX" DESTDIR="$1" install

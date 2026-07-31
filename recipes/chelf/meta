@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/chelf/template
+void-commit: ad4934cada
+pkgver: chelf-0.2.2_1
+style: gnu-makefile
+dropped: vlicense in do_install
+expect-needed: libc.so.6

@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/ictree/template
+void-commit: f8e8a52507
+pkgver: ictree-1.0.1_1
+style: gnu-makefile
+expect-needed: libc.so.6

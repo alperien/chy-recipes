@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/gnugo/template
+void-commit: 6a00170a7d
+pkgver: gnugo-3.8_2
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libm.so.6

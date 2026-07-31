@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/fastttyrec/template
+void-commit: 9c75a8ac11
+pkgver: fastttyrec-0.2.0_1
+style: gnu-makefile
+expect-needed: libc.so.6

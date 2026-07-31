@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/acct/template
+void-commit: 166191b0c9
+pkgver: acct-6.6.4_2
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libm.so.6

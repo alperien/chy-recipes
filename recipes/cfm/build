@@ -1,0 +1,4 @@
+#!/bin/sh -e
+make
+install -Dm755 cfm "$1$CHY_ROOT/usr/bin/cfm"
+install -Dm644 cfm.1 "$1$CHY_ROOT/usr/share/man/man1/cfm.1"

@@ -1,0 +1,8 @@
+#!/bin/sh -e
+./configure \
+    --prefix="$CHY_PREFIX" \
+    --sysconfdir="$CHY_ROOT/etc"
+make
+make DESTDIR="$1" install
+sed -i 's,/builddir/.xbps-gnustep-make/wrappers,/usr/bin,g' "$1$CHY_ROOT/usr/share/GNUstep/Makefiles/config.make"
+sed -i 's,-specs=/void-packages/[^ ]* ,,g' "$1$CHY_ROOT/usr/share/GNUstep/Makefiles/config.make"

@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/ding-libs/template
+void-commit: 57b39d1a97
+pkgver: ding-libs-0.6.1_2
+style: gnu-configure
+expect-needed: libc.so.6

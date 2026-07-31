@@ -1,0 +1,4 @@
+#!/bin/sh -e
+sed -i -e 's/gcc/$(CC)/' Makefile
+make
+install -Dm755 cpuinfo "$1$CHY_ROOT/usr/bin/cpuinfo"
