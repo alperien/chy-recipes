@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/labwc-menu-generator/template
+void-commit: 1e79367e147
+pkgver: labwc-menu-generator-0.2.0_1
+style: meson
+expect-needed: libc.so.6
+expect-needed: libglib-2.0.so.0

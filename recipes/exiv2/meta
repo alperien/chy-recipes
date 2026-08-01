@@ -1,0 +1,14 @@
+origin: translated
+template: srcpkgs/exiv2/template
+void-commit: fc74d2d0ad2
+pkgver: exiv2-0.28.8_1
+style: cmake
+dropped: check phase pre_check
+expect-needed: libINIReader.so.0
+expect-needed: libbrotlidec.so.1
+expect-needed: libc.so.6
+expect-needed: libexpat.so.1
+expect-needed: libgcc_s.so.1
+expect-needed: libm.so.6
+expect-needed: libstdc++.so.6
+expect-needed: libz.so.1

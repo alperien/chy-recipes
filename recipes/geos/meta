@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/geos/template
+void-commit: b6eba1c0c67
+pkgver: geos-3.13.0_1
+style: cmake
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libm.so.6
+expect-needed: libstdc++.so.6

@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/janet/template
+void-commit: 4176fd88da1
+pkgver: janet-1.41.2_1
+style: meson
+dropped: vlicense in post_install
+expect-needed: ld-linux-x86-64.so.2
+expect-needed: libc.so.6
+expect-needed: libm.so.6

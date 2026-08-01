@@ -1,0 +1,10 @@
+#!/bin/sh -e
+./configure \
+    --prefix="$CHY_PREFIX" \
+    --sysconfdir="$CHY_ROOT/etc" \
+    --disable-systemd-service \
+    --enable-pie \
+    --enable-dbus-policy \
+    --enable-wired
+make
+make DESTDIR="$1" install

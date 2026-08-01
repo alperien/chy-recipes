@@ -1,0 +1,4 @@
+cmake
+ninja
+pixman
+pkg-config

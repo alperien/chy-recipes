@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/gawk/template
+void-commit: 743bc62e135
+pkgver: gawk-5.3.2_1
+style: gnu-configure
+dropped: check phase pre_check
+expect-needed: libc.so.6
+expect-needed: libm.so.6
+expect-needed: libreadline.so.8

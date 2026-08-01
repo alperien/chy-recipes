@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/lcms2/template
+void-commit: 999fbab97ef6
+pkgver: lcms2-2.19.1_1
+style: meson
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libm.so.6

@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/lcdf-typetools/template
+void-commit: f46db1433691
+pkgver: lcdf-typetools-2.110_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libm.so.6
+expect-needed: libstdc++.so.6

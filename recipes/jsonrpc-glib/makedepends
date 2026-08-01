@@ -1,0 +1,8 @@
+gi-docgen
+glib
+gobject-introspection
+json-glib
+meson
+ninja
+pkg-config
+vala

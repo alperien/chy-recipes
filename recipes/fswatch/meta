@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/fswatch/template
+void-commit: b57f2b6e600
+pkgver: fswatch-1.18.2_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libfswatch.so.13
+expect-needed: libgcc_s.so.1
+expect-needed: libstdc++.so.6

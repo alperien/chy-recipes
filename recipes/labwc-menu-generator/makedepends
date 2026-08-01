@@ -1,0 +1,6 @@
+cmake
+glib
+meson
+ninja
+pkg-config
+scdoc

@@ -1,0 +1,10 @@
+origin: translated
+template: srcpkgs/heimdall/template
+void-commit: 61f802e60288
+pkgver: heimdall-2.2.2_1
+style: cmake
+dropped: vlicense in do_install
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libstdc++.so.6
+expect-needed: libusb-1.0.so.0

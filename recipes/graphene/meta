@@ -1,0 +1,10 @@
+origin: translated
+template: srcpkgs/graphene/template
+void-commit: c83271341e
+pkgver: graphene-1.10.8_1
+style: meson
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libglib-2.0.so.0
+expect-needed: libgobject-2.0.so.0
+expect-needed: libm.so.6

@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/gengetopt/template
+void-commit: 8da9dab95d
+pkgver: gengetopt-2.23_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libstdc++.so.6

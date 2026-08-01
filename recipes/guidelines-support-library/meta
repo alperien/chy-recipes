@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/guidelines-support-library/template
+void-commit: 9203e0f9322
+pkgver: guidelines-support-library-4.0.0_1
+style: cmake
+dropped: vlicense in post_install

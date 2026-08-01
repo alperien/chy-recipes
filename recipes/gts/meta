@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/gts/template
+void-commit: 9b4697ef9a
+pkgver: gts-0.7.6_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libglib-2.0.so.0
+expect-needed: libm.so.6

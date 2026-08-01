@@ -1,0 +1,8 @@
+cmake
+cmake-extras
+gi-docgen
+glib
+gobject-introspection
+ninja
+pkg-config
+vala

@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/editorconfig/template
+void-commit: ef77027b20d
+pkgver: editorconfig-0.12.9_1
+style: cmake
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libpcre2-8.so.0

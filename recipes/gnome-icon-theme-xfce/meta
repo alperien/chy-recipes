@@ -1,0 +1,5 @@
+origin: translated
+template: srcpkgs/gnome-icon-theme-xfce/template
+void-commit: dab38c85ea
+pkgver: gnome-icon-theme-xfce-0.6_3
+style: NONE

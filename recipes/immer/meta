@@ -1,0 +1,5 @@
+origin: translated
+template: srcpkgs/immer/template
+void-commit: 5e3d4b4fda3
+pkgver: immer-0.8.1_1
+style: cmake

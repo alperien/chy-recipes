@@ -1,0 +1,6 @@
+cairo
+eudev
+libxml2
+ncurses
+numactl
+pkg-config

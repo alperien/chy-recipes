@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/iotop-c/template
+void-commit: 0ee2946121db
+pkgver: iotop-c-1.31_1
+style: gnu-makefile
+expect-needed: libc.so.6
+expect-needed: libncursesw.so.6

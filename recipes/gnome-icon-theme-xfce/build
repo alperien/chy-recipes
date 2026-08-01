@@ -1,0 +1,3 @@
+#!/bin/sh -e
+mkdir -p "$1$CHY_ROOT/usr/share"
+cp -aR usr/share/icons "$1$CHY_ROOT/usr/share"

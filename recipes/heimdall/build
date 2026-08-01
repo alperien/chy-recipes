@@ -1,0 +1,8 @@
+#!/bin/sh -e
+cmake -G Ninja -B build \
+    -DCMAKE_INSTALL_PREFIX="$CHY_PREFIX" \
+    -DCMAKE_BUILD_TYPE=Release
+ninja -C build
+install -Dm755 build/bin/heimdall "$1$CHY_ROOT/usr/bin/heimdall"
+install -Dm755 build/bin/heimdall-frontend "$1$CHY_ROOT/usr/bin/heimdall-frontend"
+install -Dm644 heimdall/60-heimdall.rules "$1$CHY_ROOT/usr/lib/udev/rules.d/60-heimdall.rules"

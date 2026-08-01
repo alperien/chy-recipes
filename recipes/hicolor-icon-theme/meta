@@ -1,0 +1,5 @@
+origin: translated
+template: srcpkgs/hicolor-icon-theme/template
+void-commit: 402b3207df3
+pkgver: hicolor-icon-theme-0.18_1
+style: meson

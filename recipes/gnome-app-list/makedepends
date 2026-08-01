@@ -1,0 +1,5 @@
+libxml2
+meson
+ninja
+pkg-config
+python3

@@ -1,0 +1,6 @@
+glib
+libsigc++
+meson
+ninja
+perl
+pkg-config

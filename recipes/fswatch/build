@@ -1,0 +1,8 @@
+#!/bin/sh -e
+./configure \
+    --prefix="$CHY_PREFIX" \
+    --sysconfdir="$CHY_ROOT/etc" \
+    --disable-static
+make
+make DESTDIR="$1" install
+rm -vr -- "$1$CHY_ROOT/usr/share/doc"

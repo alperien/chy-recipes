@@ -1,0 +1,5 @@
+origin: translated
+template: srcpkgs/frozen/template
+void-commit: dc7d78d8bf2
+pkgver: frozen-1.2.0_1
+style: cmake

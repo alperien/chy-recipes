@@ -1,0 +1,12 @@
+cmake
+gmp
+gperf
+ninja
+perl-Moo
+perl-Path-Tiny
+perl-Template-Toolkit
+pysolfc
+python3-pysol_cards
+python3-random2
+python3-six
+rinutils

@@ -1,0 +1,9 @@
+#!/bin/sh -e
+sed -i -e 's/-O3//' Makefile
+make \
+    debug=no \
+    gzip_man=no
+make PREFIX="$CHY_PREFIX" DESTDIR="$1" \
+    debug=no \
+    gzip_man=no \
+    install

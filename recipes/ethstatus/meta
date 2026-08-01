@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/ethstatus/template
+void-commit: ebb78df3c2
+pkgver: ethstatus-0.4.9_1
+style: gnu-makefile
+dropped: vlicense in do_install
+expect-needed: libc.so.6
+expect-needed: libncursesw.so.6

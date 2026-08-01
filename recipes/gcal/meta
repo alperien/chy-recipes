@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/gcal/template
+void-commit: d34b5212c5
+pkgver: gcal-4.1_2
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libm.so.6
+expect-needed: libncursesw.so.6

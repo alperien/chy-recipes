@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/glm/template
+void-commit: cffb91cf9a3
+pkgver: glm-1.0.3_1
+style: cmake
+dropped: vlicense in post_install

@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/freecell-solver/template
+void-commit: 6033adbb8ba
+pkgver: freecell-solver-6.10.0_1
+style: cmake
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libfreecell-solver.so.0

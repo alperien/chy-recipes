@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/httrack/template
+void-commit: bc9c0b5845
+pkgver: httrack-3.49.2_9
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libcrypto.so.3
+expect-needed: libssl.so.3
+expect-needed: libz.so.1

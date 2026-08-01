@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/dwdiff/template
+void-commit: 179775de59c
+pkgver: dwdiff-2.1.4_7
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libicuuc.so.78

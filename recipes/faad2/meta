@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/faad2/template
+void-commit: 121325e1ea5
+pkgver: faad2-2.11.2_1
+style: cmake
+expect-needed: ld-linux-x86-64.so.2
+expect-needed: libc.so.6
+expect-needed: libm.so.6

@@ -1,0 +1,3 @@
+#!/bin/sh -e
+mkdir -p "$1$CHY_ROOT/usr/lib/firmware"
+install -m644 *.fw "$1$CHY_ROOT/usr/lib/firmware"

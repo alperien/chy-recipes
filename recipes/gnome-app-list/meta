@@ -1,0 +1,5 @@
+origin: translated
+template: srcpkgs/gnome-app-list/template
+void-commit: 105ce7ea389
+pkgver: gnome-app-list-3.0_1
+style: meson

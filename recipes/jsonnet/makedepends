@@ -1,0 +1,5 @@
+cmake
+git
+help2man
+ninja
+pkg-config

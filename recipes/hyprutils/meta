@@ -1,0 +1,11 @@
+origin: translated
+template: srcpkgs/hyprutils/template
+void-commit: 1a3bfd87af5
+pkgver: hyprutils-0.11.0_1
+style: cmake
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libm.so.6
+expect-needed: libpixman-1.so.0
+expect-needed: libstdc++.so.6

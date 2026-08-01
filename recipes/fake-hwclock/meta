@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/fake-hwclock/template
+void-commit: 001b46fa9b
+pkgver: fake-hwclock-0.12_1
+style: NONE
+dropped: conf_files
+dropped: vsv in do_install

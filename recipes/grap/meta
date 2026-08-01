@@ -1,0 +1,10 @@
+origin: translated
+template: srcpkgs/grap/template
+void-commit: 934c41a1fc6
+pkgver: grap-1.49_1
+style: gnu-configure
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libm.so.6
+expect-needed: libstdc++.so.6

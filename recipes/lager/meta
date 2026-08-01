@@ -1,0 +1,5 @@
+origin: translated
+template: srcpkgs/lager/template
+void-commit: 5e3d4b4fda3
+pkgver: lager-0.1.0_1
+style: cmake

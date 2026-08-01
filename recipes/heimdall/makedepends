@@ -1,0 +1,5 @@
+cmake
+libusb
+ninja
+pkg-config
+qt6-base

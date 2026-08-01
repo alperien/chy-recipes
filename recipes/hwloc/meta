@@ -1,0 +1,11 @@
+origin: translated
+template: srcpkgs/hwloc/template
+void-commit: 63c263f1b54
+pkgver: hwloc-2.13.0_1
+style: gnu-configure
+expect-needed: libX11.so.6
+expect-needed: libc.so.6
+expect-needed: libcairo.so.2
+expect-needed: libhwloc.so.15
+expect-needed: libm.so.6
+expect-needed: libncursesw.so.6

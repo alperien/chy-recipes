@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/ipw2100-firmware/template
+void-commit: 0746122e52
+pkgver: ipw2100-firmware-1.3_6
+style: NONE
+dropped: vlicense in do_install

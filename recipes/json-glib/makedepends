@@ -1,0 +1,8 @@
+gettext
+gi-docgen
+glib
+gobject-introspection
+meson
+ninja
+pkg-config
+python3-docutils

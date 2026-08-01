@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/jose/template
+void-commit: b8488cccb89
+pkgver: jose-14_1
+style: meson
+expect-needed: libc.so.6
+expect-needed: libjansson.so.4
+expect-needed: libjose.so.0

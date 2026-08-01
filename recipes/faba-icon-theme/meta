@@ -1,0 +1,5 @@
+origin: translated
+template: srcpkgs/faba-icon-theme/template
+void-commit: 5f63ffe4d2
+pkgver: faba-icon-theme-4.3_2
+style: meson

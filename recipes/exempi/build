@@ -1,0 +1,9 @@
+#!/bin/sh -e
+./configure \
+    --prefix="$CHY_PREFIX" \
+    --sysconfdir="$CHY_ROOT/etc" \
+    --with-boost="$CHY_ROOT/usr" \
+    --disable-static \
+    --disable-unittest
+make
+make DESTDIR="$1" install

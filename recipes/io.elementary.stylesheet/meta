@@ -1,0 +1,5 @@
+origin: translated
+template: srcpkgs/io.elementary.stylesheet/template
+void-commit: 2c4e3d786d
+pkgver: io.elementary.stylesheet-7.0.0_1
+style: meson

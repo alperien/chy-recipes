@@ -1,0 +1,10 @@
+origin: translated
+template: srcpkgs/j4-dmenu-desktop/template
+void-commit: 04bc0428afa1
+pkgver: j4-dmenu-desktop-3.2_3
+style: meson
+expect-needed: libc.so.6
+expect-needed: libfmt.so.12
+expect-needed: libgcc_s.so.1
+expect-needed: libspdlog.so.1.17
+expect-needed: libstdc++.so.6

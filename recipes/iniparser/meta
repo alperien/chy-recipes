@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/iniparser/template
+void-commit: 9593c4784d0
+pkgver: iniparser-4.2.6_1
+style: cmake
+dropped: vlicense in post_install
+expect-needed: libc.so.6

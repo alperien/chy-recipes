@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/hcxdumptool/template
+void-commit: bc9c0b5845
+pkgver: hcxdumptool-6.2.0_2
+style: gnu-makefile
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libcrypto.so.3
+expect-needed: libssl.so.3

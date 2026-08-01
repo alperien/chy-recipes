@@ -1,0 +1,11 @@
+#!/bin/sh -e
+./configure \
+    --prefix="$CHY_PREFIX" \
+    --sysconfdir="$CHY_ROOT/etc" \
+    --disable-rpath \
+    --disable-doxygen-docs \
+    --disable-examples \
+    --with-ogg="$CHY_ROOT/usr" \
+    --disable-thorough-tests
+make
+make DESTDIR="$1" install

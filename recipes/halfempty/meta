@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/halfempty/template
+void-commit: 2125c9a10d
+pkgver: halfempty-0.40_1
+style: gnu-makefile
+expect-needed: libc.so.6
+expect-needed: libglib-2.0.so.0

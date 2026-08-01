@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/leveldb/template
+void-commit: 3a68679d732
+pkgver: leveldb-1.23_1
+style: cmake
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libstdc++.so.6

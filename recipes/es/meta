@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/es/template
+void-commit: 907942e6841
+pkgver: es-0.10.0_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libreadline.so.8

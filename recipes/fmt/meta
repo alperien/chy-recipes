@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/fmt/template
+void-commit: 2497c06f743e
+pkgver: fmt-12.1.0_1
+style: cmake
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libstdc++.so.6

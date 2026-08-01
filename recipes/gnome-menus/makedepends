@@ -1,0 +1,4 @@
+gettext
+glib
+gobject-introspection
+pkg-config

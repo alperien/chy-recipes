@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/eigen/template
+void-commit: 9cf8df06dca
+pkgver: eigen-3.4.0_1
+style: cmake
+dropped: vlicense in post_install

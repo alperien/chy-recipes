@@ -1,0 +1,12 @@
+origin: translated
+template: srcpkgs/fplll/template
+void-commit: 4981f83bda5
+pkgver: fplll-5.5.0_1
+style: gnu-configure
+expect-needed: ld-linux-x86-64.so.2
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libgmp.so.10
+expect-needed: libm.so.6
+expect-needed: libmpfr.so.6
+expect-needed: libstdc++.so.6

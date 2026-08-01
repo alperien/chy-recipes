@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/gnome-menus/template
+void-commit: b1d337762b7
+pkgver: gnome-menus-3.38.1_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libgio-2.0.so.0
+expect-needed: libglib-2.0.so.0
+expect-needed: libgobject-2.0.so.0

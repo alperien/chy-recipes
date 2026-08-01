@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/gnuchess/template
+void-commit: 2c971a6ee16
+pkgver: gnuchess-6.3.0_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libm.so.6
+expect-needed: libreadline.so.8

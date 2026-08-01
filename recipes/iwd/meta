@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/iwd/template
+void-commit: 862027c698f
+pkgver: iwd-3.12_1
+style: gnu-configure
+dropped: vsv in post_install
+expect-needed: libc.so.6
+expect-needed: libreadline.so.8

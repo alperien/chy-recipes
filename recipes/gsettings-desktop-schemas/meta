@@ -1,0 +1,5 @@
+origin: translated
+template: srcpkgs/gsettings-desktop-schemas/template
+void-commit: 456aa299ae6
+pkgver: gsettings-desktop-schemas-48.0_1
+style: meson

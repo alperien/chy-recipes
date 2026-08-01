@@ -1,0 +1,14 @@
+origin: translated
+template: srcpkgs/glibmm/template
+void-commit: 57d7adb4944d
+pkgver: glibmm-2.66.8_1
+style: meson
+expect-needed: ld-linux-x86-64.so.2
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libgio-2.0.so.0
+expect-needed: libglib-2.0.so.0
+expect-needed: libgmodule-2.0.so.0
+expect-needed: libgobject-2.0.so.0
+expect-needed: libsigc-2.0.so.0
+expect-needed: libstdc++.so.6

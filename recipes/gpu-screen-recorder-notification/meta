@@ -1,0 +1,15 @@
+origin: translated
+template: srcpkgs/gpu-screen-recorder-notification/template
+void-commit: a34d8d7b133c
+pkgver: gpu-screen-recorder-notification-1.1.1_1
+style: meson
+expect-needed: libX11.so.6
+expect-needed: libXext.so.6
+expect-needed: libXrandr.so.2
+expect-needed: libXrender.so.1
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libm.so.6
+expect-needed: libstdc++.so.6
+expect-needed: libwayland-client.so.0
+expect-needed: libwayland-egl.so.1

@@ -1,0 +1,5 @@
+origin: translated
+template: srcpkgs/iso-codes/template
+void-commit: 58a711524de6
+pkgver: iso-codes-4.20.1_1
+style: meson

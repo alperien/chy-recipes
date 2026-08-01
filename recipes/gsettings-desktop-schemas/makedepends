@@ -1,0 +1,6 @@
+gettext
+glib
+gobject-introspection
+meson
+ninja
+pkg-config

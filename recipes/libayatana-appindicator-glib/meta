@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/libayatana-appindicator-glib/template
+void-commit: b449ab0dffc
+pkgver: libayatana-appindicator-glib-2.0.1_1
+style: cmake
+expect-needed: libc.so.6
+expect-needed: libgio-2.0.so.0
+expect-needed: libglib-2.0.so.0
+expect-needed: libgobject-2.0.so.0

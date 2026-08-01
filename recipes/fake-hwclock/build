@@ -1,0 +1,5 @@
+#!/bin/sh -e
+install -Dm755 fake-hwclock "$1$CHY_ROOT/usr/bin/fake-hwclock"
+install -Dm644 etc/default/fake-hwclock "$1$CHY_ROOT/etc/default/fake-hwclock"
+install -Dm755 debian/fake-hwclock.cron.hourly "$1$CHY_ROOT/etc/cron.hourly/fake-hwclock"
+install -Dm644 fake-hwclock.8 "$1$CHY_ROOT/usr/share/man/man8/fake-hwclock.8"

@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/jsonnet/template
+void-commit: 69f5e2a110c
+pkgver: jsonnet-0.22.0_1
+style: cmake
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libm.so.6
+expect-needed: libstdc++.so.6

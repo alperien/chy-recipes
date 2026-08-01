@@ -1,0 +1,10 @@
+origin: translated
+template: srcpkgs/jsoncpp/template
+void-commit: 11ce3d1cff11
+pkgver: jsoncpp-1.9.6_1
+style: meson
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libm.so.6
+expect-needed: libstdc++.so.6

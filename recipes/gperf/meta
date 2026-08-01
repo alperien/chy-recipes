@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/gperf/template
+void-commit: 5f0335b920c
+pkgver: gperf-3.3_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libm.so.6
+expect-needed: libstdc++.so.6

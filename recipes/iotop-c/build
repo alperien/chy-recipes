@@ -1,0 +1,4 @@
+#!/bin/sh -e
+make
+install -Dm755 iotop "$1$CHY_ROOT/usr/bin/iotop-c"
+install -Dm644 iotop.8 "$1$CHY_ROOT/usr/share/man/man8/iotop-c.8"

@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/dvtm/template
+void-commit: 86d89ffc0a
+pkgver: dvtm-0.15_3
+style: gnu-makefile
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libncursesw.so.6
+expect-needed: libutil.so.1

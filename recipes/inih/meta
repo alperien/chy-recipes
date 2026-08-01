@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/inih/template
+void-commit: 17bf2a7507f
+pkgver: inih-62_1
+style: meson
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libstdc++.so.6

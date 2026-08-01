@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/imath/template
+void-commit: 78c7c8efc332
+pkgver: imath-3.1.9_9
+style: cmake
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libstdc++.so.6

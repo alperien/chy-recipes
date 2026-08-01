@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/flac/template
+void-commit: fef9ddb6fa2
+pkgver: flac-1.5.0_1
+style: gnu-configure
+dropped: vlicense in post_install
+expect-needed: libFLAC.so.14
+expect-needed: libc.so.6
+expect-needed: libm.so.6

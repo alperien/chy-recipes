@@ -1,0 +1,9 @@
+libX11
+libXext
+libXrandr
+libXrender
+libglvnd
+meson
+ninja
+pkg-config
+wayland

@@ -1,0 +1,4 @@
+dbus
+libreadline8
+pkg-config
+python3-docutils

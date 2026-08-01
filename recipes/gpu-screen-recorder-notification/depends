@@ -1,0 +1,6 @@
+gcc
+libX11
+libXext
+libXrandr
+libXrender
+wayland

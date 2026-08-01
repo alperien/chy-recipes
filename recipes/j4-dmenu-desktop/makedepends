@@ -1,0 +1,5 @@
+fmt
+meson
+ninja
+pkg-config
+spdlog
