@@ -1,0 +1,5 @@
+origin: translated
+template: srcpkgs/ETL/template
+void-commit: 2c06a698636
+pkgver: ETL-1.4.5_1
+style: gnu-configure
