@@ -21,21 +21,21 @@ translated: PerWindowLayout
 translated: QHotkey
 translated: QXlsx
 translated: ROCm-SMI
-deferred: SPIRV-Headers SPIRV-Headers-1.4.350.1_1 age=3
-deferred: SPIRV-Tools SPIRV-Tools-2026.2_1 age=3
+deferred: SPIRV-Headers SPIRV-Headers-1.4.350.1_1 age=4
+deferred: SPIRV-Tools SPIRV-Tools-2026.2_1 age=4
 translated: STC
 translated: SuiteSparse
-deferred: Vulkan-Headers Vulkan-Headers-1.4.350.1_1 age=3
-deferred: Vulkan-Tools Vulkan-Tools-1.4.350.1_1 age=3
-deferred: Vulkan-Utility-Libraries Vulkan-Utility-Libraries-1.4.350.1_1 age=3
-deferred: Vulkan-ValidationLayers Vulkan-ValidationLayers-1.4.350.1_1 age=3
+deferred: Vulkan-Headers Vulkan-Headers-1.4.350.1_1 age=4
+deferred: Vulkan-Tools Vulkan-Tools-1.4.350.1_1 age=4
+deferred: Vulkan-Utility-Libraries Vulkan-Utility-Libraries-1.4.350.1_1 age=4
+deferred: Vulkan-ValidationLayers Vulkan-ValidationLayers-1.4.350.1_1 age=4
 translated: a4
 translated: abcmidi
 translated: abduco
 translated: abseil-cpp
 translated: acct
 translated: acpi
-deferred: acpica-utils acpica-utils-20260408_1 age=5
+translated: acpica-utils
 translated: acpid
 translated: acr
 translated: ada
@@ -66,8 +66,8 @@ translated: aspell-sk
 translated: at-spi2-core
 translated: atinout
 translated: atkmm
-deferred: atomicparsley atomicparsley-20240608.083822_1 age=5
-deferred: attr attr-2.6.0_1 age=5
+deferred: atomicparsley atomicparsley-20240608.083822_1 age=6
+deferred: attr attr-2.6.0_1 age=6
 translated: augeas
 refused: ax25-tools: patches/musl.patch: no ---/+++ header pair to derive a strip level from
 translated: b43-fwcutter
@@ -82,7 +82,7 @@ translated: bdf2sfd
 translated: bdftopcf
 translated: beard
 translated: benchmark
-deferred: bento4 bento4-1.6.0+641_1 age=2
+deferred: bento4 bento4-1.6.0+641_1 age=4
 translated: berry
 translated: biblesync
 translated: bird
@@ -127,18 +127,18 @@ translated: cflow
 translated: cfm
 translated: cgif
 translated: cglm
-deferred: chawan chawan-0.4.4_1 age=0
+deferred: chawan chawan-0.4.4_1 age=1
 translated: chayang
 translated: check
 translated: chelf
 translated: chmlib
 translated: chrono-date
 translated: chrpath
-deferred: cinnamon-menus cinnamon-menus-6.6.0_1 age=5
+translated: cinnamon-menus
 translated: ck
 translated: clac
 translated: cldr-emoji-annotation
-translated: cli11
+deferred: cli11 cli11-2.7.1_1 age=0
 translated: clipper
 translated: cliquer
 translated: cln
@@ -150,7 +150,7 @@ translated: cmake-extras
 translated: cmatrix
 translated: cmdpack
 translated: cmocka
-deferred: cmuclmtk cmuclmtk-0.7_3 age=1056
+deferred: cmuclmtk cmuclmtk-0.7_3 age=1057
 translated: codec2
 translated: commoncpp2
 translated: compsize
@@ -163,7 +163,7 @@ translated: courier-unicode
 translated: cpat
 translated: cpio
 translated: cpmtools
-deferred: cpp-utilities cpp-utilities-5.34.2_1 age=0
+deferred: cpp-utilities cpp-utilities-5.34.2_1 age=1
 translated: cppcms
 translated: cppcodec
 translated: cppdb
@@ -214,7 +214,7 @@ translated: dosfstools
 translated: double-conversion
 refused: dpp: patches/fix_ctime.diff: no ---/+++ header pair to derive a strip level from
 translated: draco
-deferred: dsh dsh-0.25.10_6 age=1056
+deferred: dsh dsh-0.25.10_6 age=1057
 translated: dsvpn
 translated: dtach
 translated: dte
@@ -243,7 +243,7 @@ translated: epub2txt
 translated: es
 translated: ethstatus
 translated: ethtool
-deferred: evilwm evilwm-1.5_1 age=1
+deferred: evilwm evilwm-1.5_1 age=2
 translated: execline-man-pages
 translated: exempi
 translated: exfat-utils
@@ -313,7 +313,7 @@ translated: genext2fs
 translated: gengetopt
 translated: geos
 translated: gforth
-deferred: giflib giflib-6.1.3_1 age=1
+deferred: giflib giflib-6.1.3_1 age=2
 translated: gifsicle
 translated: givaro
 translated: glfw
@@ -358,8 +358,8 @@ translated: gupnp-av
 translated: gzip
 translated: halfempty
 translated: halibut
-translated: harfbuzz
-deferred: haveged haveged-1.9.26_1 age=4
+deferred: harfbuzz harfbuzz-14.3.0_1 age=0
+deferred: haveged haveged-1.9.26_1 age=5
 translated: havoc
 translated: hcxdumptool
 translated: hdapsd
@@ -372,7 +372,7 @@ translated: hidapi
 translated: highway
 translated: hiredis
 translated: hostaliases
-deferred: html-xml-utils html-xml-utils-8.8_1 age=4
+deferred: html-xml-utils html-xml-utils-8.8_1 age=6
 translated: htmlcxx
 translated: htop
 translated: http-parser
@@ -396,8 +396,8 @@ translated: immer
 translated: inih
 translated: iniparser
 translated: input-utils
-deferred: intel-gmmlib intel-gmmlib-22.10.0_1 age=2
-deferred: intel-media-driver intel-media-driver-26.3.0_1 age=2
+deferred: intel-gmmlib intel-gmmlib-22.10.0_1 age=4
+deferred: intel-media-driver intel-media-driver-26.3.0_1 age=4
 translated: intel-undervolt
 translated: interbench
 translated: io.elementary.stylesheet
@@ -424,7 +424,7 @@ translated: jhead
 translated: jitterentropy
 translated: jitterentropy-rngd
 translated: jo
-deferred: joe joe-4.8_1 age=2
+deferred: joe joe-4.8_1 age=3
 translated: jose
 translated: json-c
 translated: json-glib
@@ -454,7 +454,7 @@ translated: lemonbar
 translated: less
 translated: leveldb
 translated: lftp
-deferred: lhasa lhasa-0.6.0_1 age=2
+deferred: lhasa lhasa-0.6.0_1 age=4
 translated: lib2geom
 translated: libHX
 translated: libIDL
@@ -521,8 +521,8 @@ translated: libgpg-error
 translated: libgta
 translated: libguess
 translated: libhangul
-deferred: libidn libidn-1.44_1 age=2
-deferred: libidn2 libidn2-2.3.8_1 age=2
+deferred: libidn libidn-1.44_1 age=4
+deferred: libidn2 libidn2-2.3.8_1 age=4
 translated: libiec61883
 translated: libieee1284
 translated: libiptcdata
@@ -542,7 +542,7 @@ translated: libmspack
 translated: libnatpmp
 translated: libndp
 translated: libnet
-deferred: libnetfilter_acct libnetfilter_acct-1.0.3_1 age=1056
+deferred: libnetfilter_acct libnetfilter_acct-1.0.3_1 age=1057
 translated: libnetfilter_conntrack
 translated: libnetfilter_cthelper
 translated: libnetfilter_cttimeout
@@ -580,7 +580,7 @@ translated: liburing
 translated: libusb
 refused: libusb-compat: hook pre_configure is class C: command 'autoreconf' is outside the idiom set (pre_configure)
 translated: libutempter
-deferred: libuv libuv-1.52.1_1 age=4
+deferred: libuv libuv-1.52.1_1 age=6
 translated: libva-vdpau-driver
 translated: libvdpau
 translated: libvorbis
@@ -640,7 +640,7 @@ translated: mpfr
 translated: mtdev
 translated: multitime
 translated: musca
-deferred: musl-bootstrap musl-bootstrap-1.2.6_1 age=2
+deferred: musl-bootstrap musl-bootstrap-1.2.6_1 age=3
 translated: nano-exporter
 translated: nawk
 translated: ncftp
@@ -721,7 +721,7 @@ translated: s6-man-pages
 translated: s6-networking-man-pages
 translated: s6-portable-utils-man-pages
 translated: samurai
-deferred: sbc sbc-2.2_1 age=4
+deferred: sbc sbc-2.2_1 age=5
 translated: scheme48
 translated: scooper
 translated: sct
@@ -855,12 +855,12 @@ translated: xtermcontrol
 translated: xtitle
 translated: xtrans
 translated: xvidcore
-translated: xvinfo
+deferred: xvinfo xvinfo-1.1.6_1 age=0
 translated: xwd
-translated: xwininfo
+deferred: xwininfo xwininfo-1.1.7_1 age=0
 translated: xwud
 translated: xz
-deferred: yascreen yascreen-2.13_1 age=4
+deferred: yascreen yascreen-2.14_1 age=0
 translated: yasm
 translated: yeahconsole
 refused: zeroc-mcpp: conflicts: dependency 'mcpp-devel' not in the snapshot slice

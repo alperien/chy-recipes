@@ -757,7 +757,7 @@ libfstrcmp.so.0 fstrcmp
 libfswatch.so.13 fswatch
 libfuse.so.2 fuse
 libgailutil-3.so.0 gtk+3
-libgallium-26.1.5.so mesa
+libgallium-26.1.6.so mesa
 libgauche-0.98.so.0.15 Gauche
 libgavl.so.1 gavl
 libgbm.so.1 mesa

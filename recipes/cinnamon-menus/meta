@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/cinnamon-menus/template
+void-commit: 274aac0eff9
+pkgver: cinnamon-menus-6.6.0_1
+style: meson
+expect-needed: libc.so.6
+expect-needed: libgio-2.0.so.0
+expect-needed: libglib-2.0.so.0
+expect-needed: libgobject-2.0.so.0
