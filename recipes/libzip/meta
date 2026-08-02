@@ -1,0 +1,12 @@
+origin: translated
+template: srcpkgs/libzip/template
+void-commit: 48d76ad9a20
+pkgver: libzip-1.11.4_1
+style: cmake
+dropped: vlicense in post_install
+expect-needed: libbz2.so.1
+expect-needed: libc.so.6
+expect-needed: libcrypto.so.3
+expect-needed: liblzma.so.5
+expect-needed: libz.so.1
+expect-needed: libzstd.so.1

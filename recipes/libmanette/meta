@@ -1,0 +1,11 @@
+origin: translated
+template: srcpkgs/libmanette/template
+void-commit: d2622f0b91
+pkgver: libmanette-0.2.6_1
+style: meson
+expect-needed: libc.so.6
+expect-needed: libevdev.so.2
+expect-needed: libgio-2.0.so.0
+expect-needed: libglib-2.0.so.0
+expect-needed: libgobject-2.0.so.0
+expect-needed: libgudev-1.0.so.0

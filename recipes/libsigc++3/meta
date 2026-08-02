@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/libsigc++3/template
+void-commit: 5a6e21f121
+pkgver: libsigc++3-3.4.0_1
+style: meson
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libstdc++.so.6

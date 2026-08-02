@@ -1,0 +1,8 @@
+glib
+gobject-introspection
+meson
+ninja
+pkg-config
+python3
+util-linux-common
+zstd

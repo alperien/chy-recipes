@@ -1,0 +1,6 @@
+cairo
+glib
+libgudev
+libgusb
+openssl
+pixman

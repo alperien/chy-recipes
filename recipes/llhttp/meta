@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/llhttp/template
+void-commit: 5f4e2bd3381
+pkgver: llhttp-9.4.1_1
+style: cmake
+dropped: vlicense in post_install
+expect-needed: libc.so.6

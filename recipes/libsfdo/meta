@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/libsfdo/template
+void-commit: 6ffe5f774d7
+pkgver: libsfdo-0.1.4_1
+style: meson
+dropped: vlicense in post_install
+expect-needed: libc.so.6

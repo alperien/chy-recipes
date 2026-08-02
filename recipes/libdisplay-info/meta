@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/libdisplay-info/template
+void-commit: 318e62f8ad5
+pkgver: libdisplay-info-0.2.0_1
+style: meson
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libm.so.6

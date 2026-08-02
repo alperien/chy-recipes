@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/libpciaccess/template
+void-commit: 9db17c4d1bb
+pkgver: libpciaccess-0.19_1
+style: meson
+dropped: vlicense in post_install
+expect-needed: libc.so.6

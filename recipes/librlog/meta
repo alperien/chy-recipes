@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/librlog/template
+void-commit: 1e36a172aa
+pkgver: librlog-1.4_5
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libm.so.6
+expect-needed: libstdc++.so.6

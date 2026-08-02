@@ -1,0 +1,10 @@
+origin: translated
+template: srcpkgs/logswan/template
+void-commit: 13b91bad783
+pkgver: logswan-2.1.17_1
+style: cmake
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libjansson.so.4
+expect-needed: libm.so.6
+expect-needed: libmaxminddb.so.0

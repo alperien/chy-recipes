@@ -1,0 +1,11 @@
+origin: translated
+template: srcpkgs/libmygui/template
+void-commit: 2edf7b4acf7
+pkgver: libmygui-3.4.3_1
+style: cmake
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libfreetype.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libm.so.6
+expect-needed: libstdc++.so.6

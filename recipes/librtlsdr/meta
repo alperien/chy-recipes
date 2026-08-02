@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/librtlsdr/template
+void-commit: 6d71ed05736
+pkgver: librtlsdr-2.0.2_1
+style: cmake
+expect-needed: libc.so.6
+expect-needed: libusb-1.0.so.0

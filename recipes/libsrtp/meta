@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/libsrtp/template
+void-commit: 7a2b3b547f10
+pkgver: libsrtp-2.8.0_1
+style: meson
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libcrypto.so.3

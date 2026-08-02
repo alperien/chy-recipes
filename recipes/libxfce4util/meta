@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/libxfce4util/template
+void-commit: 3c53d8fa942
+pkgver: libxfce4util-4.20.1_1
+style: meson
+expect-needed: libc.so.6
+expect-needed: libgio-2.0.so.0
+expect-needed: libglib-2.0.so.0
+expect-needed: libgobject-2.0.so.0

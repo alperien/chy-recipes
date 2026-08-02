@@ -1,0 +1,11 @@
+gdk-pixbuf
+glib
+gobject-introspection
+libgusb
+libusb
+meson
+ninja
+nss
+openssl
+pixman
+pkg-config

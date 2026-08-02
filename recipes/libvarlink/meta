@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/libvarlink/template
+void-commit: cf1170b576
+pkgver: libvarlink-23_1
+style: meson
+expect-needed: libc.so.6

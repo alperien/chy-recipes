@@ -1,0 +1,10 @@
+bzip2
+cmake
+groff
+ninja
+openssl
+perl
+pkg-config
+xz
+zlib
+zstd

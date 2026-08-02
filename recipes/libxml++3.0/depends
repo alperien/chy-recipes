@@ -1,0 +1,5 @@
+gcc
+glib
+glibmm
+libsigc++
+libxml2

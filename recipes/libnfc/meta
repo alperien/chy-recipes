@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/libnfc/template
+void-commit: 75d2255d88
+pkgver: libnfc-1.8.0_1
+style: cmake
+expect-needed: libc.so.6
+expect-needed: libusb-0.1.so.4

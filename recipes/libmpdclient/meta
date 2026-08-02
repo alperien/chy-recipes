@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/libmpdclient/template
+void-commit: ce18741a7c8a
+pkgver: libmpdclient-2.23_1
+style: meson
+dropped: vlicense in post_install
+expect-needed: libc.so.6

@@ -1,0 +1,8 @@
+glib
+gobject-introspection
+iso-codes
+libXi
+libxkbfile
+libxml2
+pkg-config
+xkeyboard-config

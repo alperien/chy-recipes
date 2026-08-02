@@ -1,0 +1,8 @@
+boost
+cmake
+doxygen
+freetype
+libX11
+ninja
+ois
+pkg-config

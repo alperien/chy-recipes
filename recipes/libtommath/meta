@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/libtommath/template
+void-commit: 91ba76c6536
+pkgver: libtommath-1.3.0_1
+style: NONE
+dropped: check phase do_check
+dropped: cross-build block in do_build
+expect-needed: libc.so.6

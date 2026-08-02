@@ -1,0 +1,11 @@
+origin: translated
+template: srcpkgs/libxmlb/template
+void-commit: bea683d28b7
+pkgver: libxmlb-0.3.24_1
+style: meson
+expect-needed: libc.so.6
+expect-needed: libgio-2.0.so.0
+expect-needed: libglib-2.0.so.0
+expect-needed: libgobject-2.0.so.0
+expect-needed: liblzma.so.5
+expect-needed: libzstd.so.1

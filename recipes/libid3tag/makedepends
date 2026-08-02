@@ -1,0 +1,5 @@
+cmake
+gperf
+ninja
+pkg-config
+zlib

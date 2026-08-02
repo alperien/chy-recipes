@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/loksh/template
+void-commit: b1f63342b74
+pkgver: loksh-7.5_1
+style: meson
+dropped: vlicense in post_install
+expect-needed: libc.so.6
+expect-needed: libncursesw.so.6

@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/libjaylink/template
+void-commit: 30746cd3a67
+pkgver: libjaylink-0.4.0_1
+style: meson
+expect-needed: libc.so.6
+expect-needed: libusb-1.0.so.0

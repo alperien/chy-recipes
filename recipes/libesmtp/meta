@@ -1,0 +1,8 @@
+origin: translated
+template: srcpkgs/libesmtp/template
+void-commit: ea0160e03d
+pkgver: libesmtp-1.0.6_22
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libcrypto.so.3
+expect-needed: libssl.so.3

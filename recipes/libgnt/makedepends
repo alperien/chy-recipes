@@ -1,0 +1,9 @@
+glib
+gobject-introspection
+gtk-doc
+libxml2
+meson
+ncurses
+ninja
+pkg-config
+python3

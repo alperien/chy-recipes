@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/liblc3/template
+void-commit: 2117405e03f
+pkgver: liblc3-1.1.3_1
+style: meson
+expect-needed: libc.so.6

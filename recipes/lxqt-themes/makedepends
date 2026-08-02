@@ -1,0 +1,4 @@
+cmake
+lxqt-build-tools
+ninja
+perl

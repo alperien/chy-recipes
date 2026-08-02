@@ -1,0 +1,4 @@
+cmake
+jansson
+libmaxminddb
+ninja

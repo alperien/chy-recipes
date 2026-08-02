@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/libqb/template
+void-commit: 3f433256858f
+pkgver: libqb-2.0.9_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libxml2.so.2

@@ -1,0 +1,6 @@
+cmake
+expat
+inih
+libicu78
+ninja
+pkg-config

@@ -1,0 +1,11 @@
+#!/bin/sh -e
+meson setup build \
+    --prefix="$CHY_PREFIX" \
+    --sysconfdir="$CHY_ROOT/etc" \
+    --libdir=lib \
+    --buildtype=release
+ninja -C build
+DESTDIR="$1" ninja -C build install
+mv "$1$CHY_ROOT/usr/bin/ksh" "$1$CHY_ROOT/usr/bin/loksh"
+mv "$1$CHY_ROOT/usr/share/man/man1/ksh.1" "$1$CHY_ROOT/usr/share/man/man1/loksh.1"
+mv "$1$CHY_ROOT/usr/share/man/man1/sh.1" "$1$CHY_ROOT/usr/share/man/man1/loksh-sh.1"

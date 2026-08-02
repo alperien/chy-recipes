@@ -1,0 +1,7 @@
+cmake
+cmocka
+ninja
+openssl
+pkg-config
+python3
+zlib

@@ -1,0 +1,10 @@
+#!/bin/sh -e
+export CFLAGS="${CFLAGS:+$CFLAGS }-D_GNU_SOURCE"
+sed -i "s|MODE=\"0664\", GROUP=\"plugdev\"|TAG+=\"uaccess\"|g" contrib/udev/93-pn53x.rules
+cmake -G Ninja -B build \
+    -DCMAKE_INSTALL_PREFIX="$CHY_PREFIX" \
+    -DCMAKE_BUILD_TYPE=Release
+ninja -C build
+DESTDIR="$1" ninja -C build install
+install -Dm644 contrib/udev/93-pn53x.rules "$1$CHY_ROOT/usr/lib/udev/rules.d/93-pn53x.rules"
+install -Dm644 contrib/linux/blacklist-libnfc.conf "$1$CHY_ROOT/usr/lib/modprobe.d/blacklist-libnfc.conf"

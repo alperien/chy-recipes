@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/libzeitgeist/template
+void-commit: d34b5212c5
+pkgver: libzeitgeist-0.3.18_5
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libgio-2.0.so.0
+expect-needed: libglib-2.0.so.0
+expect-needed: libgobject-2.0.so.0

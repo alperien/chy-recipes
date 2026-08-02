@@ -1,0 +1,5 @@
+origin: translated
+template: srcpkgs/lxqt-themes/template
+void-commit: 20fbbcf5b5be
+pkgver: lxqt-themes-2.4.0_1
+style: cmake

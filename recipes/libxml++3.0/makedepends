@@ -1,0 +1,6 @@
+glib
+glibmm
+libsigc++
+libxml2
+perl
+pkg-config

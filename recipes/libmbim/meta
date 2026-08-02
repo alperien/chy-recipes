@@ -1,0 +1,10 @@
+origin: translated
+template: srcpkgs/libmbim/template
+void-commit: 3f18c04dd4b
+pkgver: libmbim-1.32.0_1
+style: meson
+dropped: build_helper qemu
+expect-needed: libc.so.6
+expect-needed: libgio-2.0.so.0
+expect-needed: libglib-2.0.so.0
+expect-needed: libgobject-2.0.so.0

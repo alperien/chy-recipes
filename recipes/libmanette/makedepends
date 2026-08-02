@@ -1,0 +1,8 @@
+glib
+gobject-introspection
+libevdev
+libgudev
+meson
+ninja
+pkg-config
+vala

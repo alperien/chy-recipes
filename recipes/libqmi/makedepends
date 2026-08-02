@@ -1,0 +1,9 @@
+bash-completion
+glib
+gobject-introspection
+libgudev
+libmbim
+libqrtr-glib
+meson
+ninja
+pkg-config

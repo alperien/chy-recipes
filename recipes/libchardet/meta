@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/libchardet/template
+void-commit: 94f14ce060
+pkgver: libchardet-1.0.5_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libm.so.6
+expect-needed: libstdc++.so.6

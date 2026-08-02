@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/libgee/template
+void-commit: 9859b770e36
+pkgver: libgee-0.20.8_2
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libgio-2.0.so.0
+expect-needed: libglib-2.0.so.0
+expect-needed: libgobject-2.0.so.0

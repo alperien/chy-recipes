@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/libssh/template
+void-commit: 9097ff0d763
+pkgver: libssh-0.12.0_1
+style: cmake
+expect-needed: ld-linux-x86-64.so.2
+expect-needed: libc.so.6
+expect-needed: libcrypto.so.3
+expect-needed: libz.so.1

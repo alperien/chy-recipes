@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/libscfg/template
+void-commit: 7cdf53e78d9
+pkgver: libscfg-0.1.1_1
+style: meson
+dropped: vlicense in post_install
+expect-needed: libc.so.6

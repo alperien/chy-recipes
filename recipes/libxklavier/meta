@@ -1,0 +1,12 @@
+origin: translated
+template: srcpkgs/libxklavier/template
+void-commit: c4df20bc28
+pkgver: libxklavier-5.4_3
+style: gnu-configure
+expect-needed: libX11.so.6
+expect-needed: libXi.so.6
+expect-needed: libc.so.6
+expect-needed: libglib-2.0.so.0
+expect-needed: libgobject-2.0.so.0
+expect-needed: libxkbfile.so.1
+expect-needed: libxml2.so.2

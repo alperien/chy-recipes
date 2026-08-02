@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/libcbor/template
+void-commit: 3d656c34fcea
+pkgver: libcbor-0.14.0_1
+style: cmake
+dropped: vlicense in post_install
+expect-needed: libc.so.6

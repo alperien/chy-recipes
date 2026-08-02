@@ -1,0 +1,5 @@
+automake
+gettext
+glib
+libtool
+pkg-config

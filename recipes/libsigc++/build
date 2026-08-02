@@ -1,0 +1,12 @@
+#!/bin/sh -e
+sed -i 's,library(,both_libraries(,' sigc++/meson.build
+meson setup build \
+    --prefix="$CHY_PREFIX" \
+    --sysconfdir="$CHY_ROOT/etc" \
+    --libdir=lib \
+    --buildtype=release \
+    -Dbuild-examples=false \
+    -Dwarnings=max \
+    -Dbuild-tests=false
+ninja -C build
+DESTDIR="$1" ninja -C build install

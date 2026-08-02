@@ -1,0 +1,3 @@
+#!/bin/sh -e
+make -f makefile.shared
+make -f makefile.shared PREFIX="$CHY_PREFIX" DESTDIR="$1" install

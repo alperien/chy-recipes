@@ -1,0 +1,4 @@
+#!/bin/sh -e
+mkdir -p "$1$CHY_ROOT/usr/share"
+rm info/lilypond
+mv * "$1$CHY_ROOT/usr/share"

@@ -1,0 +1,6 @@
+origin: translated
+template: srcpkgs/libmicrodns/template
+void-commit: 7ad955664d
+pkgver: libmicrodns-0.2.0_1
+style: meson
+expect-needed: libc.so.6

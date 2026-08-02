@@ -1,0 +1,6 @@
+glib
+gobject-introspection
+libXau
+perl
+pkg-config
+python3-distutils-extra

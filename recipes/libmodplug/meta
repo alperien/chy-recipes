@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/libmodplug/template
+void-commit: 01186d5884
+pkgver: libmodplug-0.8.9.0_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libm.so.6
+expect-needed: libstdc++.so.6

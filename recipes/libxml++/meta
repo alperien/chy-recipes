@@ -1,0 +1,14 @@
+origin: translated
+template: srcpkgs/libxml++/template
+void-commit: b5e85855af
+pkgver: libxml++-2.40.1_4
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libglib-2.0.so.0
+expect-needed: libglibmm-2.4.so.1
+expect-needed: libgobject-2.0.so.0
+expect-needed: libm.so.6
+expect-needed: libsigc-2.0.so.0
+expect-needed: libstdc++.so.6
+expect-needed: libxml2.so.2

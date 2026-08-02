@@ -1,0 +1,5 @@
+origin: translated
+template: srcpkgs/lilypond-doc/template
+void-commit: caca344299c
+pkgver: lilypond-doc-2.26.0_1
+style: NONE

@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/libdeflate/template
+void-commit: 1674f5137a9
+pkgver: libdeflate-1.25_1
+style: cmake
+dropped: vlicense in post_install
+expect-needed: libc.so.6

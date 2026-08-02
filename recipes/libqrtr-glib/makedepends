@@ -1,0 +1,6 @@
+glib
+gobject-introspection
+gtk-doc
+meson
+ninja
+pkg-config

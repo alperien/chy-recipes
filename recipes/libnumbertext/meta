@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/libnumbertext/template
+void-commit: 53f15d5496
+pkgver: libnumbertext-1.0.11_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libm.so.6
+expect-needed: libstdc++.so.6

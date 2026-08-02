@@ -1,0 +1,4 @@
+gobject-introspection
+libtool
+libxml2
+pkg-config

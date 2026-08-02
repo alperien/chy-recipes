@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/libsidplayfp/template
+void-commit: c2f5286518a8
+pkgver: libsidplayfp-2.16.1_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libm.so.6
+expect-needed: libstdc++.so.6

@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/libid3tag/template
+void-commit: e24a0cb2618c
+pkgver: libid3tag-0.16.4_1
+style: cmake
+expect-needed: libc.so.6
+expect-needed: libz.so.1

@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/libgtop/template
+void-commit: df04639fbe2
+pkgver: libgtop-2.41.3_1
+style: gnu-configure
+expect-needed: libXau.so.6
+expect-needed: libc.so.6
+expect-needed: libglib-2.0.so.0
+expect-needed: libgobject-2.0.so.0

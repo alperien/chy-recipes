@@ -1,0 +1,10 @@
+#!/bin/sh -e
+cmake -G Ninja -B build \
+    -DCMAKE_INSTALL_PREFIX="$CHY_PREFIX" \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DMYGUI_BUILD_DEMOS=OFF \
+    -DMYGUI_RENDERSYSTEM=1 \
+    -DMYGUI_BUILD_TOOLS=OFF \
+    -DMYGUI_DONT_USE_OBSOLETE=ON
+ninja -C build
+DESTDIR="$1" ninja -C build install

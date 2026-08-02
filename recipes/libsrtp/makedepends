@@ -1,0 +1,4 @@
+meson
+ninja
+openssl
+pkg-config

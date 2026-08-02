@@ -1,0 +1,11 @@
+origin: translated
+template: srcpkgs/libspatialindex/template
+void-commit: da9cf74056c6
+pkgver: libspatialindex-1.9.3_2
+style: cmake
+dropped: vlicense in post_install
+expect-needed: ld-linux-x86-64.so.2
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libm.so.6
+expect-needed: libstdc++.so.6

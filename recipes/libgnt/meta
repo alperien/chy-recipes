@@ -1,0 +1,13 @@
+origin: translated
+template: srcpkgs/libgnt/template
+void-commit: da351f95562
+pkgver: libgnt-2.14.3_2
+style: meson
+dropped: cross-build block in pre_configure
+expect-needed: libc.so.6
+expect-needed: libglib-2.0.so.0
+expect-needed: libgmodule-2.0.so.0
+expect-needed: libgobject-2.0.so.0
+expect-needed: libncursesw.so.6
+expect-needed: libpanelw.so.6
+expect-needed: libxml2.so.2

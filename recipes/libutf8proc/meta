@@ -1,0 +1,7 @@
+origin: translated
+template: srcpkgs/libutf8proc/template
+void-commit: b76632d21dc
+pkgver: libutf8proc-2.11.3_1
+style: cmake
+dropped: vlicense in post_install
+expect-needed: libc.so.6

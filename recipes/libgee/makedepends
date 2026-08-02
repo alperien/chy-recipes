@@ -1,0 +1,4 @@
+glib
+gobject-introspection
+pkg-config
+vala

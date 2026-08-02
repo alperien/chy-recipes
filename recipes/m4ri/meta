@@ -1,0 +1,10 @@
+origin: translated
+template: srcpkgs/m4ri/template
+void-commit: 23369f63bee
+pkgver: m4ri-20260122_1
+style: gnu-configure
+dropped: check phase pre_check
+expect-needed: libc.so.6
+expect-needed: libgomp.so.1
+expect-needed: libm.so.6
+expect-needed: libpng16.so.16

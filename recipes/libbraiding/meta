@@ -1,0 +1,9 @@
+origin: translated
+template: srcpkgs/libbraiding/template
+void-commit: 5acbdbb31a7
+pkgver: libbraiding-1.3.2_1
+style: gnu-configure
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libm.so.6
+expect-needed: libstdc++.so.6

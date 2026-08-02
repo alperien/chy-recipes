@@ -1,0 +1,11 @@
+origin: translated
+template: srcpkgs/log4cplus/template
+void-commit: 35537b978f0
+pkgver: log4cplus-2.1.2_1
+style: gnu-configure
+expect-needed: ld-linux-x86-64.so.2
+expect-needed: libatomic.so.1
+expect-needed: libc.so.6
+expect-needed: libgcc_s.so.1
+expect-needed: libm.so.6
+expect-needed: libstdc++.so.6

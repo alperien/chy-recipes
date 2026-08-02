@@ -1,0 +1,8 @@
+bash-completion
+glib
+gobject-introspection
+help2man
+libgudev
+meson
+ninja
+pkg-config

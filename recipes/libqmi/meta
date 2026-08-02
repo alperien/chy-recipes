@@ -1,0 +1,12 @@
+origin: translated
+template: srcpkgs/libqmi/template
+void-commit: b021517a907a
+pkgver: libqmi-1.38.0_1
+style: meson
+expect-needed: libc.so.6
+expect-needed: libgio-2.0.so.0
+expect-needed: libglib-2.0.so.0
+expect-needed: libgobject-2.0.so.0
+expect-needed: libgudev-1.0.so.0
+expect-needed: libmbim-glib.so.4
+expect-needed: libqrtr-glib.so.0

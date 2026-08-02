@@ -21,14 +21,14 @@ translated: PerWindowLayout
 translated: QHotkey
 translated: QXlsx
 translated: ROCm-SMI
-deferred: SPIRV-Headers SPIRV-Headers-1.4.350.1_1 age=4
-deferred: SPIRV-Tools SPIRV-Tools-2026.2_1 age=4
+deferred: SPIRV-Headers SPIRV-Headers-1.4.350.1_1 age=5
+deferred: SPIRV-Tools SPIRV-Tools-2026.2_1 age=5
 translated: STC
 translated: SuiteSparse
-deferred: Vulkan-Headers Vulkan-Headers-1.4.350.1_1 age=4
-deferred: Vulkan-Tools Vulkan-Tools-1.4.350.1_1 age=4
-deferred: Vulkan-Utility-Libraries Vulkan-Utility-Libraries-1.4.350.1_1 age=4
-deferred: Vulkan-ValidationLayers Vulkan-ValidationLayers-1.4.350.1_1 age=4
+deferred: Vulkan-Headers Vulkan-Headers-1.4.350.1_1 age=5
+deferred: Vulkan-Tools Vulkan-Tools-1.4.350.1_1 age=5
+deferred: Vulkan-Utility-Libraries Vulkan-Utility-Libraries-1.4.350.1_1 age=5
+deferred: Vulkan-ValidationLayers Vulkan-ValidationLayers-1.4.350.1_1 age=5
 translated: a4
 translated: abcmidi
 translated: abduco
@@ -150,7 +150,7 @@ translated: cmake-extras
 translated: cmatrix
 translated: cmdpack
 translated: cmocka
-deferred: cmuclmtk cmuclmtk-0.7_3 age=1057
+deferred: cmuclmtk cmuclmtk-0.7_3 age=1058
 translated: codec2
 translated: commoncpp2
 translated: compsize
@@ -214,7 +214,7 @@ translated: dosfstools
 translated: double-conversion
 refused: dpp: patches/fix_ctime.diff: no ---/+++ header pair to derive a strip level from
 translated: draco
-deferred: dsh dsh-0.25.10_6 age=1057
+deferred: dsh dsh-0.25.10_6 age=1058
 translated: dsvpn
 translated: dtach
 translated: dte
@@ -243,7 +243,7 @@ translated: epub2txt
 translated: es
 translated: ethstatus
 translated: ethtool
-deferred: evilwm evilwm-1.5_1 age=2
+deferred: evilwm evilwm-1.5_1 age=3
 translated: execline-man-pages
 translated: exempi
 translated: exfat-utils
@@ -313,7 +313,7 @@ translated: genext2fs
 translated: gengetopt
 translated: geos
 translated: gforth
-deferred: giflib giflib-6.1.3_1 age=2
+deferred: giflib giflib-6.1.3_1 age=3
 translated: gifsicle
 translated: givaro
 translated: glfw
@@ -424,7 +424,7 @@ translated: jhead
 translated: jitterentropy
 translated: jitterentropy-rngd
 translated: jo
-deferred: joe joe-4.8_1 age=3
+deferred: joe joe-4.8_1 age=4
 translated: jose
 translated: json-c
 translated: json-glib
@@ -490,89 +490,197 @@ translated: libavc1394
 translated: libax25
 translated: libayatana-appindicator-glib
 translated: libbacktrace
+translated: libbaseencode
+translated: libblake3
+translated: libbpf
+translated: libbraiding
 translated: libbsd
 translated: libburn
 translated: libbytesize
 translated: libcap-ng
+translated: libcbor
 translated: libcddb
+translated: libcdr
+translated: libchardet
+translated: libcli
+translated: libcloudproviders
+deferred: libcpuid libcpuid-0.8.1_1 age=0
+translated: libcroco
+translated: libcss
 translated: libdaemon
+translated: libdatachannel
 translated: libdatrie
 translated: libdbi
+deferred: libde265 libde265-1.1.1_1 age=4
+translated: libdeflate
+translated: libdex
 translated: libdiscid
+translated: libdisplay-info
 translated: libdmx
+translated: libdrm
 translated: libdshconfig
 translated: libdvbpsi
 translated: libdvdcss
 translated: libdvdnav
 translated: libdvdread
+deferred: libdwarf libdwarf-2.3.2_1 age=4
 translated: libeatmydata
+deferred: libebml libebml-1.4.7_1 age=3
+translated: libebur128
 translated: libee
 translated: libeot
 translated: libepoxy
+translated: libepubgen
+translated: libesmtp
 translated: libestr
+translated: libetonyek
 translated: libev
 translated: libevdev
+translated: libevdevPlus
+translated: libevent
+translated: libevhtp
 translated: libexttextcat
 translated: libffi
 translated: libfontenc
+translated: libfprint
 translated: libfreeaptx
+translated: libfreehand
+translated: libgbinder
 translated: libgcroots
+translated: libgee
+translated: libgit2
+translated: libglibutil
+translated: libgltf
+translated: libgme
+translated: libgnt
 translated: libgpg-error
 translated: libgta
+translated: libgtop
+translated: libgudev
 translated: libguess
+translated: libgusb
 translated: libhangul
+translated: libhubbub
+translated: libid3tag
 deferred: libidn libidn-1.44_1 age=4
 deferred: libidn2 libidn2-2.3.8_1 age=4
 translated: libiec61883
 translated: libieee1284
+translated: libiir1
+translated: libilbc
 translated: libiptcdata
+translated: libjaylink
 translated: libjodycode
 translated: libksba
+translated: liblangtag
+translated: liblc3
+translated: liblcf
+translated: libliftoff
 translated: liblogging
+translated: liblqr
 translated: libltc
+translated: libmanette
 translated: libmarkdown2
+deferred: libmatroska libmatroska-1.7.2_1 age=3
 translated: libmaxminddb
+translated: libmbim
 translated: libmd
+translated: libmicrodns
 translated: libmikmod
 translated: libmms
 translated: libmnl
+translated: libmodplug
+translated: libmodule
+translated: libmowgli
+translated: libmp4v2
 translated: libmpcdec
+translated: libmpdclient
 translated: libmpeg2
 translated: libmspack
+translated: libmspub
+translated: libmt32emu
+translated: libmwaw
+translated: libmygui
+translated: libmypaint
+translated: libmysofa
 translated: libnatpmp
 translated: libndp
+translated: libnest2d
 translated: libnet
-deferred: libnetfilter_acct libnetfilter_acct-1.0.3_1 age=1057
+translated: libnetfilter_acct
 translated: libnetfilter_conntrack
 translated: libnetfilter_cthelper
 translated: libnetfilter_cttimeout
 translated: libnetfilter_log
+translated: libnfc
 translated: libnfnetlink
 translated: libnftnl
+translated: libnice
 translated: libnl3
+translated: libnsbmp
+translated: libnsgif
+translated: libnsutils
+translated: libnumbertext
+translated: libnvme
+translated: libodfgen
+translated: libogdf
 translated: libogg
 translated: liboil
 translated: libopenaptx
+translated: libopensmtpd
 translated: libopusenc
+deferred: libp11 libp11-0.4.19_1 age=4
+translated: libpagemaker
+translated: libpar2
+translated: libparserutils
+translated: libpciaccess
 translated: libpipeline
 translated: libpng
+translated: libportal
 translated: libpst
+translated: libptytty
+translated: libqb
+translated: libqmi
+translated: libqrtr-glib
+translated: libqxp
 translated: libraw1394
+translated: libre-graph-api-cpp-qt-client
 translated: libredwg
+translated: librevenge
+translated: librlog
+translated: librtlsdr
 translated: libsamplerate
+translated: libscfg
 translated: libscrypt
 translated: libserialport
+translated: libsfdo
 translated: libshout
+translated: libsidplayfp
+translated: libsigc++
+translated: libsigc++3
+refused: libsignal-protocol-c: makedepends: dependency 'libressl-devel' not in the snapshot slice
 translated: libsmi
 translated: libsodium
+translated: libsoxr
+translated: libspatialindex
 translated: libspnav
+translated: libsrtp
+translated: libssh
+translated: libssh2
+translated: libstaroffice
 translated: libt3config
 translated: libtasn1
 translated: libtcd
+translated: libtecla
 translated: libthai
 translated: libtheora
+translated: libtommath
 translated: libtree
+translated: libtsm
 translated: libtxc_dxtn
+translated: libuInputPlus
+translated: libuecc
+translated: libunarr
 translated: libuninum
 translated: libunistring
 translated: liburcu
@@ -580,21 +688,57 @@ translated: liburing
 translated: libusb
 refused: libusb-compat: hook pre_configure is class C: command 'autoreconf' is outside the idiom set (pre_configure)
 translated: libutempter
+translated: libutf8proc
 deferred: libuv libuv-1.52.1_1 age=6
+deferred: libva libva-2.24.1_1 age=4
+translated: libva-intel-driver
+deferred: libva-utils libva-utils-2.24.0_1 age=4
 translated: libva-vdpau-driver
+translated: libvarlink
 translated: libvdpau
+translated: libvdt
+translated: libversion
+translated: libvisio
 translated: libvorbis
+deferred: libvpl libvpl-2.17.0_1 age=4
+deferred: libwacom libwacom-2.19.1_1 age=6
+translated: libwapcaplet
+translated: libwaylandpp
+translated: libwebp
 translated: libwhich
+translated: libwpd
+translated: libwpe
+translated: libwpg
+translated: libwps
 translated: libx86
 translated: libxcb
+translated: libxcvt
+translated: libxfce4util
 translated: libxkbcommon
 translated: libxkbfile
+translated: libxklavier
 translated: libxls
+translated: libxml++
+translated: libxml++3.0
+translated: libxmlb
 translated: libxmp
 translated: libxo
+translated: libyang
+translated: libzeitgeist
+translated: libzip
+translated: libzmf
+translated: lifelines
+translated: lily
+translated: lilypond-doc
 translated: limine
+translated: linbox
 translated: linux-vt-setcolors
+translated: llhttp
+translated: log4cplus
 translated: logpp
+translated: logswan
+translated: logtop
+translated: loksh
 translated: lolcat-c
 translated: lowdown
 translated: lr
@@ -604,12 +748,18 @@ translated: lsdvd
 translated: lsscsi
 translated: lsw
 translated: lswt
+translated: lua53-editorconfig-core
 translated: lwipv6
+translated: lxqt-build-tools
+translated: lxqt-menu-data
+translated: lxqt-themes
 translated: lz4
 refused: lz4jsoncat: makedepends: dependency 'lz4-devel' not in the snapshot slice
+translated: lzfse
 translated: lzo
 translated: lzop
 translated: m4
+translated: m4ri
 translated: mac-fdisk
 translated: make
 translated: makedepend
@@ -640,7 +790,7 @@ translated: mpfr
 translated: mtdev
 translated: multitime
 translated: musca
-deferred: musl-bootstrap musl-bootstrap-1.2.6_1 age=3
+deferred: musl-bootstrap musl-bootstrap-1.2.6_1 age=4
 translated: nano-exporter
 translated: nawk
 translated: ncftp
@@ -848,7 +998,7 @@ translated: xmodmap
 translated: xorg-docs
 translated: xorg-util-macros
 translated: xprop
-translated: xrefresh
+deferred: xrefresh xrefresh-1.1.1_1 age=0
 translated: xscope
 translated: xskat
 translated: xtermcontrol
