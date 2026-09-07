@@ -1,0 +1,8 @@
+origin: handwritten
+date: 2026-09-07
+pkgver: chy-0.5.0_1
+# the manager packages itself, like kiss's own repo ships kiss.  The
+# tag 0.5.0 is cut first, this recipe pins its cgit tarball, and the
+# checksum was taken from that upload.  Bumping: tag the new version
+# in alperien/chy, then update version, checksums, and pkgver here.
+source: https://github.com/alperien/chy

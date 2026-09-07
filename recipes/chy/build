@@ -1,0 +1,7 @@
+#!/bin/sh -e
+# chy builds itself with itself: the host chy fetches this recipe's
+# tag tarball, verifies the sha256, and this script installs the fresh
+# manager out of it.  One file, no make, no configure.
+
+install -d "$1$CHY_ROOT/usr/bin"
+install -m 755 chy/chy "$1$CHY_ROOT/usr/bin/chy"
